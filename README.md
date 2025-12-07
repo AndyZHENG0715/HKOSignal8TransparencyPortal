@@ -71,6 +71,8 @@ HKOSignal8TransparencyPortal/
 │   └── README.md                     # Usage instructions
 ├── prototypes/
 │   ├── charts.html                   # Chart visualizations
+│   ├── poster.html                   # Project poster (HTML)
+│   ├── QR Code to GitHub Repo.png    # QR code for easy repo access
 │   └── README.md                     # Chart documentation
 ├── typhoon_data/
 │   ├── time_of_signal_8.md           # Official signal timings (metadata)
@@ -78,8 +80,7 @@ HKOSignal8TransparencyPortal/
 │   └── <Event>/                      # Raw HKO CSV files per typhoon
 │       └── *.csv                     # 10-minute wind observations
 ├── Group Project Report & Poster/
-│   ├── Group Project Report.txt      # Project documentation
-│   └── poster.html                   # Event poster
+│   └── Group Project Report & Poster.txt  # Links to report & poster
 └── assets/                            # Images, logos, etc.
 ```
 

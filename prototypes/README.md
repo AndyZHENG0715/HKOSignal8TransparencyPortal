@@ -1,6 +1,16 @@
-## Chart Prototype
+## Prototypes
 
-Presentation-ready charts live at `prototypes/charts.html`. They rely on the pre-generated JSON files under `/data`.
+This folder contains presentation-ready prototypes and assets for the HKO Signal 8 Transparency Portal project.
+
+### Files
+
+- **charts.html** – Interactive data visualizations using Chart.js
+- **poster.html** – Project poster in HTML format
+- **QR Code to GitHub Repo.png** – QR code linking to the GitHub repository
+
+### Charts Prototype
+
+The charts rely on pre-generated JSON files under `/data`.
 
 ### Preview locally
 
