@@ -1,0 +1,288 @@
+[
+  {
+    "id": "chaba",
+    "nameEn": "Chaba",
+    "nameZh": "暹芭",
+    "year": 2022,
+    "tier": 3,
+    "tierLabel": "Tier 3: Unverified",
+    "severity": "T8",
+    "officialSignal8Start": "2022-07-01T19:10+08:00",
+    "officialSignal8End": "2022-07-02T16:20+08:00",
+    "officialSignal10Start": null,
+    "officialSignal10End": null,
+    "earlyWarningMinutes": null,
+    "casualty": {
+      "deaths": 0,
+      "missing": 0,
+      "injured": 3
+    },
+    "propertyLoss": {
+      "shipwreckOceangoing": 1,
+      "destroyedSmallBoats": 0,
+      "damagedSmallBoats": 6
+    },
+    "highlights": [
+      "Tier 3 (unverified): no ≥30 min persistence detected across the reference network.",
+      "Peak mean wind 87 km/h at Cheung Chau (2022-07-02T12:40+08:00)."
+    ]
+  },
+  {
+    "id": "ma-on",
+    "nameEn": "Ma-on",
+    "nameZh": "馬鞍",
+    "year": 2022,
+    "tier": 3,
+    "tierLabel": "Tier 3: Unverified",
+    "severity": "T8",
+    "officialSignal8Start": "2022-08-24T19:25+08:00",
+    "officialSignal8End": "2022-08-25T09:20+08:00",
+    "officialSignal10Start": null,
+    "officialSignal10End": null,
+    "earlyWarningMinutes": null,
+    "casualty": {
+      "deaths": 0,
+      "missing": 0,
+      "injured": 2
+    },
+    "propertyLoss": {
+      "shipwreckOceangoing": 2,
+      "destroyedSmallBoats": 0,
+      "damagedSmallBoats": 3
+    },
+    "highlights": [
+      "Tier 3 (unverified): no ≥30 min persistence detected across the reference network.",
+      "Peak mean wind 49 km/h at Lau Fau Shan (2022-08-02T19:50+08:00)."
+    ]
+  },
+  {
+    "id": "nalgae",
+    "nameEn": "Nalgae",
+    "nameZh": "尼格",
+    "year": 2022,
+    "tier": 3,
+    "tierLabel": "Tier 3: Unverified",
+    "severity": "T8",
+    "officialSignal8Start": "2022-11-02T13:40+08:00",
+    "officialSignal8End": "2022-11-03T05:20+08:00",
+    "officialSignal10Start": null,
+    "officialSignal10End": null,
+    "earlyWarningMinutes": null,
+    "casualty": {
+      "deaths": 0,
+      "missing": 0,
+      "injured": 3
+    },
+    "propertyLoss": {
+      "shipwreckOceangoing": 0,
+      "destroyedSmallBoats": 0,
+      "damagedSmallBoats": 3
+    },
+    "highlights": [
+      "Tier 3 (unverified): no ≥30 min persistence detected across the reference network.",
+      "Peak mean wind 61 km/h at Cheung Chau (2022-11-01T20:20+08:00)."
+    ]
+  },
+  {
+    "id": "talim",
+    "nameEn": "Talim",
+    "nameZh": "泰利",
+    "year": 2023,
+    "tier": 3,
+    "tierLabel": "Tier 3: Unverified",
+    "severity": "T8",
+    "officialSignal8Start": "2023-07-17T00:40+08:00",
+    "officialSignal8End": "2023-07-17T16:20+08:00",
+    "officialSignal10Start": null,
+    "officialSignal10End": null,
+    "earlyWarningMinutes": null,
+    "casualty": {
+      "deaths": 0,
+      "missing": 0,
+      "injured": 9
+    },
+    "propertyLoss": {
+      "shipwreckOceangoing": 0,
+      "destroyedSmallBoats": 0,
+      "damagedSmallBoats": 5
+    },
+    "highlights": [
+      "Tier 3 (unverified): no ≥30 min persistence detected across the reference network.",
+      "Peak mean wind 87 km/h at Cheung Chau (2023-07-17T14:00+08:00)."
+    ]
+  },
+  {
+    "id": "saola",
+    "nameEn": "Saola",
+    "nameZh": "蘇拉",
+    "year": 2023,
+    "tier": 2,
+    "tierLabel": "Tier 2: Reappear T8 Wind Speed Verified",
+    "severity": "T10",
+    "officialSignal8Start": "2023-09-01T02:40+08:00",
+    "officialSignal8End": "2023-09-02T16:20+08:00",
+    "officialSignal10Start": "2023-09-01T20:15+08:00",
+    "officialSignal10End": "2023-09-02T03:40+08:00",
+    "earlyWarningMinutes": 1060,
+    "casualty": {
+      "deaths": 0,
+      "missing": 0,
+      "injured": 86
+    },
+    "propertyLoss": {
+      "shipwreckOceangoing": 188,
+      "destroyedSmallBoats": 7,
+      "damagedSmallBoats": 19
+    },
+    "highlights": [
+      "Tier 2 wind-lull-wind pattern: burst at 2023-09-01T20:20+08:00, lull until 2023-09-01T21:20+08:00, reemergence at 2023-09-01T21:30+08:00.",
+      "HKO issued T8 1060 min before sustained gales were observed.",
+      "Peak mean wind 121 km/h at Cheung Chau (2023-09-01T22:00+08:00)."
+    ]
+  },
+  {
+    "id": "koinu",
+    "nameEn": "Koinu",
+    "nameZh": "小犬",
+    "year": 2023,
+    "tier": 3,
+    "tierLabel": "Tier 3: Unverified",
+    "severity": "T8",
+    "officialSignal8Start": "2023-10-08T12:40+08:00",
+    "officialSignal8End": "2023-10-09T11:40+08:00",
+    "officialSignal10Start": null,
+    "officialSignal10End": null,
+    "earlyWarningMinutes": null,
+    "casualty": {
+      "deaths": 0,
+      "missing": 0,
+      "injured": 29
+    },
+    "propertyLoss": {
+      "shipwreckOceangoing": 8,
+      "destroyedSmallBoats": 35,
+      "damagedSmallBoats": 6
+    },
+    "highlights": [
+      "Tier 3 (unverified): no ≥30 min persistence detected across the reference network.",
+      "Peak mean wind 74 km/h at Cheung Chau (2023-10-09T00:50+08:00)."
+    ]
+  },
+  {
+    "id": "yagi",
+    "nameEn": "Yagi",
+    "nameZh": "摩羯",
+    "year": 2024,
+    "tier": 3,
+    "tierLabel": "Tier 3: Unverified",
+    "severity": "T8",
+    "officialSignal8Start": "2024-09-05T18:20+08:00",
+    "officialSignal8End": "2024-09-06T12:40+08:00",
+    "officialSignal10Start": null,
+    "officialSignal10End": null,
+    "earlyWarningMinutes": null,
+    "casualty": {
+      "deaths": 0,
+      "missing": 0,
+      "injured": 9
+    },
+    "propertyLoss": {
+      "shipwreckOceangoing": 0,
+      "destroyedSmallBoats": 0,
+      "damagedSmallBoats": 3
+    },
+    "highlights": [
+      "Tier 3 (unverified): no ≥30 min persistence detected across the reference network.",
+      "Peak mean wind 69 km/h at Cheung Chau (2024-09-05T22:20+08:00)."
+    ]
+  },
+  {
+    "id": "toraji",
+    "nameEn": "Toraji",
+    "nameZh": "潭美",
+    "year": 2024,
+    "tier": 3,
+    "tierLabel": "Tier 3: Unverified",
+    "severity": "T8",
+    "officialSignal8Start": "2024-11-13T23:10+08:00",
+    "officialSignal8End": "2024-11-14T10:20+08:00",
+    "officialSignal10Start": null,
+    "officialSignal10End": null,
+    "earlyWarningMinutes": null,
+    "casualty": {
+      "deaths": 0,
+      "missing": 0,
+      "injured": 1
+    },
+    "propertyLoss": {
+      "shipwreckOceangoing": 0,
+      "destroyedSmallBoats": 1,
+      "damagedSmallBoats": 0
+    },
+    "highlights": [
+      "Tier 3 (unverified): no ≥30 min persistence detected across the reference network.",
+      "Peak mean wind 55 km/h at Cheung Chau (2024-11-14T11:30+08:00)."
+    ]
+  },
+  {
+    "id": "wipha",
+    "nameEn": "Wipha",
+    "nameZh": "韋帕",
+    "year": 2025,
+    "tier": 3,
+    "tierLabel": "Tier 3: Unverified",
+    "severity": "T10",
+    "officialSignal8Start": "2025-07-20T00:20+08:00",
+    "officialSignal8End": "2025-07-20T19:40+08:00",
+    "officialSignal10Start": "2025-07-20T09:20+08:00",
+    "officialSignal10End": "2025-07-20T16:10+08:00",
+    "earlyWarningMinutes": null,
+    "casualty": null,
+    "propertyLoss": null,
+    "highlights": [
+      "Tier 3 (unverified): no ≥30 min persistence detected across the reference network.",
+      "Peak mean wind 117 km/h at Cheung Chau (2025-07-20T12:10+08:00)."
+    ]
+  },
+  {
+    "id": "tapah",
+    "nameEn": "Tapah",
+    "nameZh": "塔巴",
+    "year": 2025,
+    "tier": 3,
+    "tierLabel": "Tier 3: Unverified",
+    "severity": "T8",
+    "officialSignal8Start": "2025-09-07T21:20+08:00",
+    "officialSignal8End": "2025-09-08T13:10+08:00",
+    "officialSignal10Start": null,
+    "officialSignal10End": null,
+    "earlyWarningMinutes": null,
+    "casualty": null,
+    "propertyLoss": null,
+    "highlights": [
+      "Tier 3 (unverified): no ≥30 min persistence detected across the reference network.",
+      "Peak mean wind 95 km/h at Cheung Chau (2025-09-08T06:40+08:00)."
+    ]
+  },
+  {
+    "id": "ragasa",
+    "nameEn": "Ragasa",
+    "nameZh": "樺加沙",
+    "year": 2025,
+    "tier": 1,
+    "tierLabel": "Tier 1: Sustained T8 Wind Speed Verified",
+    "severity": "T10",
+    "officialSignal8Start": "2025-09-23T14:20+08:00",
+    "officialSignal8End": "2025-09-24T20:20+08:00",
+    "officialSignal10Start": "2025-09-24T02:40+08:00",
+    "officialSignal10End": "2025-09-24T13:20+08:00",
+    "earlyWarningMinutes": 720,
+    "casualty": null,
+    "propertyLoss": null,
+    "highlights": [
+      "Tier 1 persistence detected for 80 min starting 2025-09-24T02:20+08:00 (4/8 stations ≥63 km/h).",
+      "HKO issued T8 720 min before sustained gales were observed.",
+      "Peak mean wind 122 km/h at Cheung Chau (2025-09-24T10:30+08:00)."
+    ]
+  }
+]

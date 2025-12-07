@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>HK Signal 8 – Data Prototype</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="preconnect"
+      href="https://cdn.jsdelivr.net"
+      crossorigin="anonymous"
+    />
+    <style>
+      :root {
+        font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #0f172a;
+        background: #f8fafc;
+      }
+      body {
+        margin: 0;
+        padding: 2rem;
+      }
+      h1,
+      h2 {
+        font-weight: 600;
+        margin-bottom: 0.25rem;
+      }
+      h1 {
+        font-size: 1.75rem;
+      }
+      p {
+        margin-top: 0;
+        color: #475569;
+      }
+      .caption {
+        font-size: 0.85rem;
+        color: #64748b;
+      }
+      .grid {
+        display: grid;
+        gap: 1.5rem;
+      }
+      .grid.two {
+        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+      }
+      .card {
+        background: #fff;
+        border-radius: 12px;
+        padding: 1.25rem;
+        box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+      }
+      canvas {
+        width: 100% !important;
+        height: 320px !important;
+      }
+      label {
+        font-weight: 600;
+        display: inline-block;
+        margin-bottom: 0.35rem;
+      }
+      select {
+        padding: 0.45rem 0.6rem;
+        border-radius: 8px;
+        border: 1px solid #cbd5f5;
+      }
+      footer {
+        margin-top: 2rem;
+        font-size: 0.9rem;
+        color: #475569;
+      }
+      code {
+        background: #e2e8f0;
+        padding: 0.15rem 0.35rem;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="grid">
+      <header>
+        <h1>Signal 8 Verification Prototype</h1>
+        <p>
+          Pulls live numbers from <code>data/index.json</code> and per-event JSON
+          to produce key presentation charts.
+        </p>
+      </header>
+
+      <section class="grid two">
+        <article class="card">
+          <h2>T8 Standard Verification Share</h2>
+          <p>Share of events where observed winds met the Signal 8 standard (≥4 reference stations sustaining ≥63 km/h).</p>
+          <canvas id="tierPie"></canvas>
+        </article>
+        <article class="card">
+          <h2>Signal 8 vs Sustained Gale Timing</h2>
+          <p>Minutes between HKO’s Signal 8 issuance and when sustained gale-force winds were actually observed.</p>
+          <p class="caption">Bars only appear when sustained winds were verified. Positive = issued before gales; negative = issued after.</p>
+          <canvas id="leadLag"></canvas>
+        </article>
+      </section>
+
+      <section class="grid two">
+        <article class="card">
+          <h2>Injuries vs Signal Timing</h2>
+          <p>Comparing recorded injuries against early warning minutes (HKO issuance vs sustained winds).</p>
+          <p class="caption">Only events with verified sustained winds appear.</p>
+          <canvas id="casualtyScatter"></canvas>
+        </article>
+        <article class="card">
+          <h2>Vessel Impact vs Signal Timing</h2>
+          <p>Total damaged/destroyed/shipwrecked vessels plotted against early warning minutes.</p>
+          <p class="caption">Only events with verified sustained winds appear.</p>
+          <canvas id="propertyScatter"></canvas>
+        </article>
+      </section>
+
+      <section class="card">
+        <div class="grid" style="gap: 0.5rem">
+          <div>
+            <h2>Reference Station Timeline</h2>
+            <p>
+              Number of reference stations with ≥63 km/h 10-minute winds (T8 threshold = 4 stations).
+            </p>
+            <p class="caption">Markers show HKO’s Signal 8 issuance (blue) and the algorithm’s first detection of sustained gales (magenta).</p>
+          </div>
+          <label for="eventSelect">Select event</label>
+          <select id="eventSelect"></select>
+        </div>
+        <canvas id="timelineChart"></canvas>
+      </section>
+    </main>
+
+    <footer>
+      Serve the project root (e.g. <code>npx serve</code> or
+      <code>python -m http.server</code>) and open
+      <code>/prototypes/charts.html</code>.
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3"></script>
+    <script type="module">
+      const COLOR_BY_TIER = {
+        1: "#15803d",
+        2: "#b45309",
+        3: "#dc2626",
+      };
+      const POINT_STYLE_BY_SEVERITY = {
+        T10: "triangle",
+        T8: "circle",
+      };
+
+      const tierPieCtx = document.getElementById("tierPie");
+      const leadLagCtx = document.getElementById("leadLag");
+      const casualtyCtx = document.getElementById("casualtyScatter");
+      const propertyCtx = document.getElementById("propertyScatter");
+      const timelineCtx = document.getElementById("timelineChart");
+      const eventSelect = document.getElementById("eventSelect");
+
+      let tierPieChart, leadLagChart, casualtyChart, propertyChart, timelineChart;
+
+      async function loadIndexData() {
+        const res = await fetch("../data/index.json");
+        if (!res.ok) throw new Error("Unable to load index.json");
+        return res.json();
+      }
+
+      async function loadEventData(eventId) {
+        const res = await fetch(`../data/events/${eventId}.json`);
+        if (!res.ok) throw new Error(`Unable to load event ${eventId}`);
+        return res.json();
+      }
+
+      function describeVerification(tier) {
+        return tier <= 2
+          ? "T8 standard met (sustained winds verified)"
+          : "T8 standard not verified";
+      }
+
+      function buildTierPie(data) {
+        const verified = data.filter((evt) => evt.tier <= 2).length;
+        const unverified = data.filter((evt) => evt.tier === 3).length;
+        const dataset = {
+          labels: ["T8 standard met (sustained winds observed)", "T8 standard not verified"],
+          datasets: [
+            {
+              data: [verified, unverified],
+              backgroundColor: ["#0ea5e9", "#cbd5f5"],
+            },
+          ],
+        };
+        if (tierPieChart) tierPieChart.destroy();
+        tierPieChart = new Chart(tierPieCtx, {
+          type: "pie",
+          data: dataset,
+          options: {
+            plugins: {
+              legend: { position: "bottom" },
+              tooltip: {
+                callbacks: {
+                  label(ctx) {
+                    const label = ctx.label || "";
+                    const value = ctx.parsed;
+                    const suffix = value === 1 ? "event" : "events";
+                    return `${label}: ${value} ${suffix}`;
+                  },
+                },
+              },
+            },
+          },
+        });
+      }
+
+      function buildLeadLagChart(data) {
+        const filtered = data
+          .filter((evt) => typeof evt.earlyWarningMinutes === "number")
+          .sort((a, b) => a.earlyWarningMinutes - b.earlyWarningMinutes);
+        const dataset = {
+          labels: filtered.map((evt) => `${evt.nameEn} (${evt.year})`),
+          datasets: [
+            {
+              label: "Minutes between HKO Signal 8 and sustained winds",
+              data: filtered.map((evt) => evt.earlyWarningMinutes),
+              backgroundColor: filtered.map((evt) => COLOR_BY_TIER[evt.tier]),
+              borderRadius: 6,
+            },
+          ],
+        };
+        if (leadLagChart) leadLagChart.destroy();
+        leadLagChart = new Chart(leadLagCtx, {
+          type: "bar",
+          data: dataset,
+          options: {
+            indexAxis: "y",
+            plugins: {
+              legend: { display: false },
+              tooltip: {
+                callbacks: {
+                  label(context) {
+                    const minutes = context.parsed.x ?? context.parsed;
+                    const direction =
+                      minutes > 0 ? "issued before sustained gales" : minutes < 0 ? "issued after sustained gales" : "same time as sustained gales";
+                    return `${context.label}: ${minutes} min (${direction})`;
+                  },
+                },
+              },
+            },
+            scales: {
+              x: {
+                title: { display: true, text: "Minutes between Signal 8 and sustained winds" },
+                grid: { color: "#cbd5f5" },
+                zeroLineColor: "#475569",
+              },
+              y: {
+                grid: { display: false },
+              },
+            },
+          },
+        });
+      }
+
+      function buildScatterChart(ctx, points, valueLabel, existingChart) {
+        if (existingChart) existingChart.destroy();
+        return new Chart(ctx, {
+          type: "scatter",
+          data: {
+            datasets: [
+              {
+                label: valueLabel,
+                data: points.map((pt) => ({
+                  x: pt.earlyWarning,
+                  y: pt.value,
+                  tier: pt.tier,
+                  severity: pt.severity,
+                  name: pt.label,
+                })),
+                backgroundColor: points.map((pt) => COLOR_BY_TIER[pt.tier]),
+                pointStyle: points.map((pt) => POINT_STYLE_BY_SEVERITY[pt.severity] ?? "circle"),
+                pointRadius: 6,
+              },
+            ],
+          },
+          options: {
+            plugins: {
+              tooltip: {
+                callbacks: {
+                  label(context) {
+                    const datum = context.raw;
+                    const direction =
+                      datum.x > 0 ? "before" : datum.x < 0 ? "after" : "at the same time as";
+                    return `${datum.name}: ${datum.y} ${valueLabel.toLowerCase()}, ${Math.abs(
+                      datum.x
+                    )} min ${direction} sustained gales`;
+                  },
+                },
+              },
+              legend: { display: false },
+            },
+            scales: {
+              x: {
+                title: {
+                  display: true,
+                  text: "Early warning minutes (HKO Signal 8 minus sustained winds)",
+                },
+                grid: { color: "#e2e8f0" },
+              },
+              y: {
+                title: { display: true, text: valueLabel },
+                grid: { color: "#f1f5f9" },
+              },
+            },
+          },
+        });
+      }
+
+      function prepareScatterPoints(data, valueSelector) {
+        return data
+          .filter((evt) => typeof evt.earlyWarningMinutes === "number")
+          .map((evt) => {
+            const value = valueSelector(evt);
+            return {
+              earlyWarning: evt.earlyWarningMinutes,
+              value,
+              tier: evt.tier,
+              severity: evt.severity,
+              label: `${evt.nameEn} ${evt.year}`,
+            };
+          })
+          .filter((pt) => typeof pt.value === "number" && !Number.isNaN(pt.value));
+      }
+
+      const hktFormatter = new Intl.DateTimeFormat("en-GB", {
+        timeZone: "Asia/Hong_Kong",
+        day: "2-digit",
+        month: "2-digit",
+        hour: "2-digit",
+        minute: "2-digit",
+      });
+
+      const toEpoch = (isoString) => new Date(isoString).getTime();
+
+      async function populateTimeline(eventId) {
+        const eventData = await loadEventData(eventId);
+        const timelinePoints = eventData.stationReadings.map((reading) => ({
+          x: toEpoch(reading.timestamp),
+          y: reading.stationsMeetingThresholdCount,
+        }));
+        const thresholdLine = eventData.stationReadings.map((reading) => ({
+          x: toEpoch(reading.timestamp),
+          y: 4,
+        }));
+        const officialStart = eventData.metadata.officialSignal8Start;
+        const detection = eventData.tierEvaluation.initialDetection;
+        const startEpoch = timelinePoints[0]?.x;
+        const endEpoch = timelinePoints.at(-1)?.x;
+
+        const markerPoints = [];
+        if (officialStart) {
+          markerPoints.push({
+            x: toEpoch(officialStart),
+            y: 8,
+            label: "HKO Signal 8 issued",
+            backgroundColor: "#0ea5e9",
+          });
+        }
+        if (detection) {
+          markerPoints.push({
+            x: toEpoch(detection),
+            y: 7,
+            label: "Sustained gales detected",
+            backgroundColor: "#c026d3",
+          });
+        }
+
+        if (timelineChart) timelineChart.destroy();
+        timelineChart = new Chart(timelineCtx, {
+          type: "line",
+          data: {
+            datasets: [
+              {
+                label: "Reference stations ≥63 km/h",
+                data: timelinePoints,
+                fill: false,
+                borderColor: "#2563eb",
+                borderWidth: 2,
+                tension: 0.2,
+                pointRadius: 0,
+              },
+              {
+                label: "T8 threshold (4 stations)",
+                data: thresholdLine,
+                borderColor: "#94a3b8",
+                borderDash: [6, 6],
+                pointRadius: 0,
+              },
+              {
+                type: "scatter",
+                label: "Key timings",
+                data: markerPoints.map((marker) => ({
+                  x: marker.x,
+                  y: marker.y,
+                  label: marker.label,
+                })),
+                backgroundColor: markerPoints.map((marker) => marker.backgroundColor),
+                pointRadius: 6,
+              },
+            ],
+          },
+          options: {
+            plugins: {
+              tooltip: {
+                callbacks: {
+                  title(items) {
+                    const timestamp = items[0]?.parsed?.x;
+                    if (!timestamp) return "";
+                    return hktFormatter.format(timestamp);
+                  },
+                  label(context) {
+                    if (context.dataset.type === "scatter") {
+                      return context.raw.label;
+                    }
+                    return `Stations ≥63 km/h: ${context.parsed.y}`;
+                  },
+                },
+              },
+            },
+            scales: {
+              x: {
+                type: "time",
+                min: startEpoch,
+                max: endEpoch,
+                time: {
+                  unit: "hour",
+                  displayFormats: {
+                    hour: "dd/MM HH:mm",
+                  },
+                },
+                title: { display: true, text: "Timestamp (HKT)" },
+                ticks: {
+                  source: "auto",
+                  callback: (value) => hktFormatter.format(value),
+                },
+                grid: { display: false },
+              },
+              y: {
+                title: { display: true, text: "Stations ≥ 63 km/h" },
+                suggestedMin: 0,
+                suggestedMax: 8,
+                ticks: { stepSize: 1 },
+                grid: { color: "#e2e8f0" },
+              },
+            },
+          },
+        });
+      }
+
+      function initEventSelect(data) {
+        data.forEach((evt, index) => {
+          const option = document.createElement("option");
+          option.value = evt.id;
+          option.textContent = `${evt.nameEn} (${evt.year}) – ${describeVerification(evt.tier)}`;
+          if (index === 0) option.selected = true;
+          eventSelect.appendChild(option);
+        });
+        eventSelect.addEventListener("change", (evt) => {
+          populateTimeline(evt.target.value);
+        });
+      }
+
+      (async function init() {
+        try {
+          const indexData = await loadIndexData();
+          buildTierPie(indexData);
+          buildLeadLagChart(indexData);
+
+          const casualtyPoints = prepareScatterPoints(indexData, (evt) =>
+            evt.casualty ? evt.casualty.injured : null
+          );
+          casualtyChart = buildScatterChart(
+            casualtyCtx,
+            casualtyPoints,
+            "Injured people",
+            casualtyChart
+          );
+
+          const propertyPoints = prepareScatterPoints(indexData, (evt) => {
+            if (!evt.propertyLoss) return null;
+            const loss = evt.propertyLoss;
+            return loss.shipwreckOceangoing + loss.destroyedSmallBoats + loss.damagedSmallBoats;
+          });
+          propertyChart = buildScatterChart(
+            propertyCtx,
+            propertyPoints,
+            "Affected vessels",
+            propertyChart
+          );
+
+          initEventSelect(indexData);
+          await populateTimeline(eventSelect.value || indexData[0].id);
+        } catch (err) {
+          console.error(err);
+          alert("Failed to load prototype data. Check console for details.");
+        }
+      })();
+    </script>
+  </body>
+</html>
