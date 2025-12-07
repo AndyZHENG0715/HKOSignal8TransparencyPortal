@@ -23,3 +23,11 @@ Thumbs.db
 # Project specific
 *.log
 *.tmp
+# Large files & submission artifacts
+submission/
+*.pdf
+*.zip
+
+# Environment
+.env
+.env.local
