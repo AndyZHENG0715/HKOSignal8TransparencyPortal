@@ -1,13 +1,13 @@
 # HKO Signal 8 Transparency Portal
 
-**Hosting status:** Ready for Cloudflare Pages setup; no public deployment has been verified yet.
+**Live website:** https://hko-signal8.pages.dev/ — anonymous public access verified on 23 October 2026.
 
 ### Deploy this snapshot on Cloudflare Pages
 
 In **Workers & Pages → Create application → Pages → Import an existing Git repository**, select `AndyZHENG0715/HKOSignal8TransparencyPortal`.
 
-- Project name: `hko-signal8` (if available).
-- Production branch: `deploy/cloudflare-pages` for this prepared snapshot. After the deployment PR is merged, switch production to `main`.
+- Project name: `hko-signal8`.
+- Production branch: `main` (deployment PR #1 is merged).
 - Framework preset: **None**.
 - Root directory: leave blank (repository root).
 - Build command: `sh scripts/build_site.sh`.
@@ -27,7 +27,7 @@ python3 -m http.server 8000 --directory dist
 
 Open `http://localhost:8000/`. Python here is only a convenient local file server, not a production requirement. Existing source preview at `/prototypes/charts.html` also remains available when serving the repository root.
 
-The share image currently targets `https://hko-signal8.pages.dev/assets/social-preview.png`. If Pages assigns a different hostname, update `og:image` in `prototypes/charts.html`. Once published, verify anonymous HTTP 200, all five charts, event switching, mobile layout, and the share image; then add the verified live URL here and to the repository Website field.
+The share image is available at `https://hko-signal8.pages.dev/assets/social-preview.png`. The live homepage, legacy chart route, favicon, share image, and all 12 JSON files returned anonymous HTTP 200 during verification. All five charts loaded, event switching worked, and the 390px mobile view had no horizontal overflow or observed console warnings/errors. The repository Website field links to the public site.
 
 Build guidance: [Cloudflare static HTML documentation](https://developers.cloudflare.com/pages/framework-guides/deploy-anything/).
 
