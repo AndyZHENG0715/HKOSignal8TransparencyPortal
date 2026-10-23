@@ -41,3 +41,11 @@ Minimal public packaging script; Linux line endings; title/description/OG PNG/fa
 3. Verify the assigned public URL anonymously and repeat asset, chart, console, event-selection and mobile checks.
 4. Replace pending status with verified URL in README; update GitHub Website. Keep scheduled data regeneration optional.
 5. Complete phase 1 acceptance before starting TCM phase 2a.
+
+## GitHub delivery
+
+Draft PR: https://github.com/AndyZHENG0715/HKOSignal8TransparencyPortal/pull/1
+
+Implementation commit: `464a7e1`. PR assigned to `AndyZHENG0715` and attached to this chat. GitHub REST review request returned HTTP 422: review cannot be requested from the PR author (same account). No review request was created. Initial older CLI reviewer edit failed on deprecated Projects (classic); REST established the actual self-review restriction.
+
+Additional checks: 16 local HTTP 200 routes (homepage, legacy route, two assets, 12 JSON files); all 12 packaged JSON files byte-identical to source; share PNG dimensions verified. Local mobile screenshot: `.tmp/mobile-390.png` (ignored evidence; not a public deployment). No live URL or repo Website update has been claimed.
