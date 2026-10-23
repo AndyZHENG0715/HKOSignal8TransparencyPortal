@@ -1,5 +1,38 @@
 # HKO Signal 8 Transparency Portal
 
+**Hosting status:** Ready for Cloudflare Pages setup; no public deployment has been verified yet.
+
+### Deploy this snapshot on Cloudflare Pages
+
+In **Workers & Pages → Create application → Pages → Import an existing Git repository**, select `AndyZHENG0715/HKOSignal8TransparencyPortal`.
+
+- Project name: `hko-signal8` (if available).
+- Production branch: `deploy/cloudflare-pages` for this prepared snapshot. After the deployment PR is merged, switch production to `main`.
+- Framework preset: **None**.
+- Root directory: leave blank (repository root).
+- Build command: `sh scripts/build_site.sh`.
+- Build output directory: `dist`.
+- Environment variables: none.
+
+This is a static HTML/JavaScript site with **no request-time backend, database, or API server**. The build copies `prototypes/charts.html` to `dist/index.html`, retains `/prototypes/charts.html`, and packages the committed `data/index.json`, `data/events/*.json`, favicon, and share image. Source reports and raw CSVs are not copied to the public bundle. No npm install, Python processing, or Wrangler configuration is required for deployment.
+
+The data is a historical 2022–2025 snapshot, not a live feed. Run `python scripts/build_event_data.py` locally only when intentionally updating source data, review its changes, then commit the resulting JSON. A scheduled rebuild is an optional future enhancement, not enabled here.
+
+Local deployment preview (from Ubuntu WSL):
+
+```sh
+sh scripts/build_site.sh
+python3 -m http.server 8000 --directory dist
+```
+
+Open `http://localhost:8000/`. Python here is only a convenient local file server, not a production requirement. Existing source preview at `/prototypes/charts.html` also remains available when serving the repository root.
+
+The share image currently targets `https://hko-signal8.pages.dev/assets/social-preview.png`. If Pages assigns a different hostname, update `og:image` in `prototypes/charts.html`. Once published, verify anonymous HTTP 200, all five charts, event switching, mobile layout, and the share image; then add the verified live URL here and to the repository Website field.
+
+Build guidance: [Cloudflare static HTML documentation](https://developers.cloudflare.com/pages/framework-guides/deploy-anything/).
+
+---
+
 A public-facing bilingual (English & Traditional Chinese) web portal that independently verifies Hong Kong Observatory's Tropical Cyclone Warning Signal No. 8 issuance against actual observed wind data.
 
 **Project Goal:** Compare official T8 signal issuance with real wind observations to classify each typhoon event into one of three tiers, measuring early-warning effectiveness and public safety impact.
