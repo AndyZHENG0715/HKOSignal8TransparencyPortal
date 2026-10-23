@@ -1,3 +1,5 @@
+> Legacy pipeline documentation. The complete website uses `build_portal_data.py`; see the root README for current regeneration and provenance.
+
 ## CSV → JSON Builder
 
 `scripts/build_event_data.py` turns the raw 10-minute wind CSVs into the JSON payloads that power the portal.

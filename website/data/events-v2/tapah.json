@@ -1,0 +1,1817 @@
+{
+  "metadata": {
+    "id": "tapah",
+    "nameEn": "Tapah",
+    "nameZh": "塔巴",
+    "year": 2025,
+    "severity": "T8",
+    "officialSignal8Start": "2025-09-07T21:20+08:00",
+    "officialSignal8End": "2025-09-08T13:10+08:00",
+    "officialSignal10Start": null,
+    "officialSignal10End": null,
+    "notes": [
+      "SE quadrant gales"
+    ]
+  },
+  "tier": 3,
+  "onset": null,
+  "confirmation": null,
+  "leadToOnsetMinutes": null,
+  "leadToConfirmationMinutes": null,
+  "sourceArchive": null,
+  "revisionPolicy": "Latest archived file version in filename order per embedded timestamp and station; all source versions preserved.",
+  "quality": {
+    "conflictingReferenceCells": 0,
+    "malformedReferenceRows": 0,
+    "offGridSamplesExcluded": 0,
+    "totalSamples": 102,
+    "windowSamples": 96,
+    "completeNetworkSamples": 95,
+    "gaps": 0,
+    "firstSample": "2025-09-07T20:50+08:00",
+    "lastSample": "2025-09-08T13:40+08:00",
+    "windowFirstSample": "2025-09-07T21:20+08:00",
+    "windowLastSample": "2025-09-08T13:10+08:00",
+    "startsBeforeWarning": true,
+    "endsAfterWarning": true
+  },
+  "sustainedSampleMinutes": 0,
+  "stations": [
+    {
+      "id": "cheung-chau",
+      "nameEn": "Cheung Chau",
+      "nameZh": "長洲"
+    },
+    {
+      "id": "chek-lap-kok",
+      "nameEn": "Chek Lap Kok",
+      "nameZh": "赤鱲角"
+    },
+    {
+      "id": "kai-tak",
+      "nameEn": "Kai Tak",
+      "nameZh": "啟德"
+    },
+    {
+      "id": "lau-fau-shan",
+      "nameEn": "Lau Fau Shan",
+      "nameZh": "流浮山"
+    },
+    {
+      "id": "sai-kung",
+      "nameEn": "Sai Kung",
+      "nameZh": "西貢"
+    },
+    {
+      "id": "sha-tin",
+      "nameEn": "Sha Tin",
+      "nameZh": "沙田"
+    },
+    {
+      "id": "ta-kwu-ling",
+      "nameEn": "Ta Kwu Ling",
+      "nameZh": "打鼓嶺"
+    },
+    {
+      "id": "tsing-yi",
+      "nameEn": "Tsing Yi",
+      "nameZh": "青衣"
+    }
+  ],
+  "timeline": [
+    {
+      "timestamp": "2025-09-07T20:50+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        44.0,
+        22.0,
+        15.0,
+        6.0,
+        9.0,
+        8.0,
+        5.0,
+        17.0
+      ],
+      "inWindow": false,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-07T21:00+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        39.0,
+        21.0,
+        15.0,
+        8.0,
+        6.0,
+        1.0,
+        8.0,
+        15.0
+      ],
+      "inWindow": false,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-07T21:10+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        41.0,
+        29.0,
+        14.0,
+        18.0,
+        8.0,
+        11.0,
+        9.0,
+        15.0
+      ],
+      "inWindow": false,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-07T21:20+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        40.0,
+        28.0,
+        15.0,
+        18.0,
+        8.0,
+        6.0,
+        12.0,
+        13.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-07T21:30+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        38.0,
+        27.0,
+        17.0,
+        17.0,
+        11.0,
+        5.0,
+        8.0,
+        14.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-07T21:40+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        41.0,
+        25.0,
+        19.0,
+        18.0,
+        12.0,
+        5.0,
+        5.0,
+        11.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-07T21:50+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        43.0,
+        29.0,
+        18.0,
+        18.0,
+        10.0,
+        3.0,
+        8.0,
+        12.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-07T22:00+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        40.0,
+        23.0,
+        17.0,
+        19.0,
+        11.0,
+        6.0,
+        9.0,
+        10.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-07T22:10+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        42.0,
+        23.0,
+        18.0,
+        17.0,
+        14.0,
+        5.0,
+        6.0,
+        8.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-07T22:20+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        41.0,
+        27.0,
+        17.0,
+        17.0,
+        11.0,
+        5.0,
+        6.0,
+        9.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-07T22:30+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        45.0,
+        30.0,
+        18.0,
+        17.0,
+        12.0,
+        4.0,
+        8.0,
+        12.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-07T22:40+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        46.0,
+        24.0,
+        18.0,
+        15.0,
+        20.0,
+        5.0,
+        6.0,
+        12.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-07T22:50+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        45.0,
+        23.0,
+        25.0,
+        15.0,
+        26.0,
+        8.0,
+        6.0,
+        10.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-07T23:00+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        44.0,
+        24.0,
+        27.0,
+        14.0,
+        19.0,
+        5.0,
+        9.0,
+        7.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-07T23:10+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        43.0,
+        25.0,
+        25.0,
+        16.0,
+        19.0,
+        12.0,
+        8.0,
+        9.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-07T23:20+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        47.0,
+        24.0,
+        19.0,
+        15.0,
+        22.0,
+        14.0,
+        7.0,
+        17.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-07T23:30+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        43.0,
+        27.0,
+        21.0,
+        19.0,
+        17.0,
+        10.0,
+        8.0,
+        14.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-07T23:40+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        48.0,
+        25.0,
+        21.0,
+        19.0,
+        16.0,
+        12.0,
+        12.0,
+        15.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-07T23:50+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        45.0,
+        27.0,
+        23.0,
+        14.0,
+        12.0,
+        12.0,
+        14.0,
+        13.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T00:00+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        38.0,
+        25.0,
+        24.0,
+        12.0,
+        12.0,
+        10.0,
+        16.0,
+        12.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T00:10+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        41.0,
+        26.0,
+        21.0,
+        18.0,
+        16.0,
+        6.0,
+        11.0,
+        16.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T00:20+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        43.0,
+        27.0,
+        18.0,
+        19.0,
+        18.0,
+        5.0,
+        11.0,
+        15.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T00:30+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        42.0,
+        33.0,
+        21.0,
+        16.0,
+        19.0,
+        5.0,
+        12.0,
+        12.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T00:40+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        63.0,
+        30.0,
+        26.0,
+        20.0,
+        24.0,
+        4.0,
+        8.0,
+        13.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T00:50+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        45.0,
+        33.0,
+        23.0,
+        23.0,
+        22.0,
+        11.0,
+        10.0,
+        14.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T01:00+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        40.0,
+        28.0,
+        26.0,
+        23.0,
+        26.0,
+        11.0,
+        11.0,
+        17.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T01:10+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        40.0,
+        24.0,
+        18.0,
+        23.0,
+        18.0,
+        12.0,
+        11.0,
+        18.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T01:20+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        41.0,
+        27.0,
+        14.0,
+        17.0,
+        14.0,
+        11.0,
+        10.0,
+        13.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T01:30+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        40.0,
+        30.0,
+        17.0,
+        10.0,
+        12.0,
+        1.0,
+        13.0,
+        11.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T01:40+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        47.0,
+        32.0,
+        19.0,
+        14.0,
+        22.0,
+        6.0,
+        9.0,
+        12.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T01:50+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        47.0,
+        34.0,
+        24.0,
+        12.0,
+        33.0,
+        16.0,
+        12.0,
+        11.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T02:00+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        43.0,
+        28.0,
+        22.0,
+        13.0,
+        28.0,
+        19.0,
+        15.0,
+        12.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T02:10+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        53.0,
+        34.0,
+        19.0,
+        16.0,
+        23.0,
+        14.0,
+        22.0,
+        15.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T02:20+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        49.0,
+        37.0,
+        22.0,
+        18.0,
+        25.0,
+        11.0,
+        22.0,
+        15.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T02:30+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        54.0,
+        35.0,
+        27.0,
+        19.0,
+        25.0,
+        10.0,
+        18.0,
+        17.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T02:40+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        54.0,
+        40.0,
+        26.0,
+        21.0,
+        24.0,
+        10.0,
+        15.0,
+        21.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T02:50+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        55.0,
+        41.0,
+        25.0,
+        26.0,
+        25.0,
+        8.0,
+        17.0,
+        20.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T03:00+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        60.0,
+        43.0,
+        32.0,
+        23.0,
+        29.0,
+        6.0,
+        16.0,
+        17.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T03:10+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        61.0,
+        42.0,
+        28.0,
+        21.0,
+        27.0,
+        8.0,
+        17.0,
+        18.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T03:20+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        51.0,
+        40.0,
+        35.0,
+        21.0,
+        19.0,
+        9.0,
+        17.0,
+        18.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T03:30+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        69.0,
+        37.0,
+        30.0,
+        22.0,
+        26.0,
+        6.0,
+        15.0,
+        15.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T03:40+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        68.0,
+        39.0,
+        29.0,
+        24.0,
+        20.0,
+        9.0,
+        14.0,
+        20.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T03:50+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        70.0,
+        38.0,
+        33.0,
+        23.0,
+        19.0,
+        8.0,
+        14.0,
+        21.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T04:00+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        74.0,
+        40.0,
+        33.0,
+        24.0,
+        21.0,
+        12.0,
+        19.0,
+        19.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T04:10+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        76.0,
+        33.0,
+        33.0,
+        24.0,
+        26.0,
+        12.0,
+        16.0,
+        21.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T04:20+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        78.0,
+        28.0,
+        32.0,
+        22.0,
+        28.0,
+        10.0,
+        15.0,
+        18.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T04:30+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        76.0,
+        39.0,
+        33.0,
+        12.0,
+        28.0,
+        9.0,
+        17.0,
+        21.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T04:40+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        77.0,
+        41.0,
+        35.0,
+        16.0,
+        31.0,
+        18.0,
+        21.0,
+        19.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T04:50+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        67.0,
+        36.0,
+        25.0,
+        15.0,
+        36.0,
+        25.0,
+        19.0,
+        23.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T05:00+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        73.0,
+        40.0,
+        46.0,
+        17.0,
+        43.0,
+        12.0,
+        18.0,
+        25.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T05:10+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        76.0,
+        39.0,
+        37.0,
+        22.0,
+        44.0,
+        19.0,
+        19.0,
+        22.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T05:20+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        91.0,
+        37.0,
+        35.0,
+        22.0,
+        40.0,
+        23.0,
+        28.0,
+        24.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T05:30+08:00",
+      "count": 1,
+      "valid": 7,
+      "winds": [
+        79.0,
+        40.0,
+        null,
+        20.0,
+        44.0,
+        25.0,
+        24.0,
+        26.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T05:40+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        81.0,
+        46.0,
+        37.0,
+        24.0,
+        40.0,
+        25.0,
+        21.0,
+        22.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T05:50+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        77.0,
+        38.0,
+        41.0,
+        29.0,
+        46.0,
+        21.0,
+        27.0,
+        28.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T06:00+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        77.0,
+        47.0,
+        42.0,
+        24.0,
+        49.0,
+        21.0,
+        26.0,
+        30.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T06:10+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        80.0,
+        44.0,
+        44.0,
+        40.0,
+        46.0,
+        21.0,
+        29.0,
+        26.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T06:20+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        93.0,
+        44.0,
+        40.0,
+        31.0,
+        57.0,
+        30.0,
+        30.0,
+        32.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T06:30+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        87.0,
+        55.0,
+        42.0,
+        26.0,
+        47.0,
+        22.0,
+        29.0,
+        32.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T06:40+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        95.0,
+        58.0,
+        39.0,
+        34.0,
+        45.0,
+        26.0,
+        24.0,
+        15.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T06:50+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        90.0,
+        49.0,
+        38.0,
+        31.0,
+        48.0,
+        28.0,
+        27.0,
+        36.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T07:00+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        84.0,
+        55.0,
+        45.0,
+        30.0,
+        44.0,
+        23.0,
+        31.0,
+        28.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T07:10+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        80.0,
+        56.0,
+        40.0,
+        23.0,
+        46.0,
+        22.0,
+        35.0,
+        29.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T07:20+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        86.0,
+        53.0,
+        45.0,
+        24.0,
+        46.0,
+        26.0,
+        30.0,
+        28.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T07:30+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        75.0,
+        41.0,
+        40.0,
+        26.0,
+        47.0,
+        23.0,
+        27.0,
+        32.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T07:40+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        71.0,
+        42.0,
+        38.0,
+        41.0,
+        50.0,
+        15.0,
+        28.0,
+        30.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T07:50+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        92.0,
+        47.0,
+        45.0,
+        39.0,
+        54.0,
+        30.0,
+        18.0,
+        26.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T08:00+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        80.0,
+        48.0,
+        60.0,
+        32.0,
+        55.0,
+        26.0,
+        25.0,
+        24.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T08:10+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        74.0,
+        41.0,
+        57.0,
+        35.0,
+        60.0,
+        30.0,
+        27.0,
+        36.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T08:20+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        69.0,
+        47.0,
+        46.0,
+        37.0,
+        51.0,
+        30.0,
+        30.0,
+        45.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T08:30+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        60.0,
+        64.0,
+        43.0,
+        46.0,
+        55.0,
+        28.0,
+        25.0,
+        46.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T08:40+08:00",
+      "count": 2,
+      "valid": 8,
+      "winds": [
+        72.0,
+        51.0,
+        53.0,
+        42.0,
+        68.0,
+        30.0,
+        22.0,
+        32.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T08:50+08:00",
+      "count": 2,
+      "valid": 8,
+      "winds": [
+        71.0,
+        51.0,
+        54.0,
+        35.0,
+        69.0,
+        20.0,
+        20.0,
+        24.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T09:00+08:00",
+      "count": 2,
+      "valid": 8,
+      "winds": [
+        69.0,
+        46.0,
+        48.0,
+        34.0,
+        63.0,
+        21.0,
+        33.0,
+        26.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T09:10+08:00",
+      "count": 2,
+      "valid": 8,
+      "winds": [
+        70.0,
+        46.0,
+        44.0,
+        35.0,
+        67.0,
+        27.0,
+        23.0,
+        33.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T09:20+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        58.0,
+        54.0,
+        53.0,
+        39.0,
+        64.0,
+        28.0,
+        22.0,
+        19.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T09:30+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        59.0,
+        51.0,
+        52.0,
+        35.0,
+        57.0,
+        29.0,
+        26.0,
+        19.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T09:40+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        62.0,
+        37.0,
+        50.0,
+        35.0,
+        61.0,
+        32.0,
+        24.0,
+        41.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T09:50+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        66.0,
+        35.0,
+        46.0,
+        33.0,
+        59.0,
+        24.0,
+        23.0,
+        41.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T10:00+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        62.0,
+        37.0,
+        33.0,
+        30.0,
+        55.0,
+        19.0,
+        21.0,
+        45.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T10:10+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        64.0,
+        50.0,
+        35.0,
+        47.0,
+        45.0,
+        19.0,
+        21.0,
+        36.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T10:20+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        64.0,
+        40.0,
+        40.0,
+        36.0,
+        45.0,
+        17.0,
+        19.0,
+        48.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T10:30+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        73.0,
+        39.0,
+        32.0,
+        36.0,
+        53.0,
+        19.0,
+        17.0,
+        47.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T10:40+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        72.0,
+        49.0,
+        35.0,
+        42.0,
+        44.0,
+        14.0,
+        14.0,
+        51.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T10:50+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        62.0,
+        52.0,
+        32.0,
+        39.0,
+        40.0,
+        16.0,
+        15.0,
+        43.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T11:00+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        67.0,
+        51.0,
+        32.0,
+        43.0,
+        39.0,
+        17.0,
+        14.0,
+        41.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T11:10+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        60.0,
+        45.0,
+        32.0,
+        44.0,
+        36.0,
+        19.0,
+        13.0,
+        47.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T11:20+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        62.0,
+        44.0,
+        28.0,
+        53.0,
+        40.0,
+        16.0,
+        12.0,
+        40.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T11:30+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        61.0,
+        45.0,
+        25.0,
+        49.0,
+        53.0,
+        13.0,
+        19.0,
+        49.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T11:40+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        59.0,
+        37.0,
+        28.0,
+        44.0,
+        50.0,
+        22.0,
+        18.0,
+        50.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T11:50+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        57.0,
+        42.0,
+        25.0,
+        50.0,
+        49.0,
+        17.0,
+        13.0,
+        47.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T12:00+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        59.0,
+        38.0,
+        29.0,
+        43.0,
+        42.0,
+        15.0,
+        13.0,
+        44.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T12:10+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        59.0,
+        41.0,
+        29.0,
+        41.0,
+        42.0,
+        21.0,
+        14.0,
+        45.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T12:20+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        57.0,
+        45.0,
+        22.0,
+        42.0,
+        40.0,
+        12.0,
+        14.0,
+        44.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T12:30+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        47.0,
+        49.0,
+        24.0,
+        37.0,
+        36.0,
+        21.0,
+        9.0,
+        35.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T12:40+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        54.0,
+        41.0,
+        23.0,
+        30.0,
+        36.0,
+        23.0,
+        13.0,
+        28.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T12:50+08:00",
+      "count": 1,
+      "valid": 8,
+      "winds": [
+        63.0,
+        36.0,
+        25.0,
+        29.0,
+        36.0,
+        22.0,
+        17.0,
+        37.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T13:00+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        61.0,
+        59.0,
+        27.0,
+        27.0,
+        40.0,
+        19.0,
+        15.0,
+        40.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T13:10+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        59.0,
+        46.0,
+        23.0,
+        32.0,
+        40.0,
+        24.0,
+        22.0,
+        37.0
+      ],
+      "inWindow": true,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T13:20+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        54.0,
+        32.0,
+        20.0,
+        37.0,
+        35.0,
+        26.0,
+        22.0,
+        35.0
+      ],
+      "inWindow": false,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T13:30+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        51.0,
+        30.0,
+        27.0,
+        30.0,
+        35.0,
+        18.0,
+        17.0,
+        30.0
+      ],
+      "inWindow": false,
+      "sustained": false
+    },
+    {
+      "timestamp": "2025-09-08T13:40+08:00",
+      "count": 0,
+      "valid": 8,
+      "winds": [
+        60.0,
+        43.0,
+        22.0,
+        19.0,
+        35.0,
+        16.0,
+        18.0,
+        30.0
+      ],
+      "inWindow": false,
+      "sustained": false
+    }
+  ]
+}
