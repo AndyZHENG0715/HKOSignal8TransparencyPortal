@@ -1,0 +1,3451 @@
+{
+  "event": "ragasa",
+  "retrievedAtUTC": "2026-10-23T14:48:10.094351+00:00",
+  "listingUrl": "https://app.data.gov.hk/v1/historical-archive/list-file-versions?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&start=20250923&end=20250924",
+  "archiveDownloadUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250901",
+  "resolvedArchiveUrl": "https://historical-resource-archive.oss-cn-hongkong.aliyuncs.com/caf905ce0682fd634409cc64f381dde5019d71da79e0aa683a3f437817a46dec/data/2025/caf905ce0682fd634409cc64f381dde5019d71da79e0aa683a3f437817a46dec-202509.zip",
+  "archiveSHA256": "67ad4bdaa4b69f44fd13e1cbba3d80c0c725d1226bb0d80f34bd0dcf45edd137",
+  "archiveBytes": 3972864,
+  "files": [
+    {
+      "file": "20250924-2239-latest_10min_wind.csv",
+      "sha256": "11878ea6ee5e88c56b405f35c63a06fa079c26a09f2d30fc5704fff074144334",
+      "bytes": 1290,
+      "archiveVersionTime": "20250924-2239",
+      "observationTimestamps": [
+        "202509242230"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-2239"
+    },
+    {
+      "file": "20250924-2240-latest_10min_wind.csv",
+      "sha256": "9f7cb4aa0030700a9f0e5d49ef3a2aae8e6e3a0abf93230e96a88513cb75855f",
+      "bytes": 1282,
+      "archiveVersionTime": "20250924-2240",
+      "observationTimestamps": [
+        "202509242230"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-2240"
+    },
+    {
+      "file": "20250924-2359-latest_10min_wind.csv",
+      "sha256": "9ee8483c86060d0ffffeeaab97af6d5c3f88cbfe61711cb4de3b533e2cada775",
+      "bytes": 1246,
+      "archiveVersionTime": "20250924-2359",
+      "observationTimestamps": [
+        "202509242350"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-2359"
+    },
+    {
+      "file": "20250924-2110-latest_10min_wind.csv",
+      "sha256": "e89932b526df1889cb4d44076d0248aa10a541b3094551331af5dad0d5c5cf89",
+      "bytes": 1275,
+      "archiveVersionTime": "20250924-2110",
+      "observationTimestamps": [
+        "202509242100"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-2110"
+    },
+    {
+      "file": "20250924-2159-latest_10min_wind.csv",
+      "sha256": "df2bf0e5aafd334434e58d2e21320151e5148825291536601140b81264e10292",
+      "bytes": 1291,
+      "archiveVersionTime": "20250924-2159",
+      "observationTimestamps": [
+        "202509242150"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-2159"
+    },
+    {
+      "file": "20250924-2139-latest_10min_wind.csv",
+      "sha256": "9799dadc007e541549fb64e34292f298abe66e64e8d3953870619d2823806037",
+      "bytes": 1282,
+      "archiveVersionTime": "20250924-2139",
+      "observationTimestamps": [
+        "202509242130"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-2139"
+    },
+    {
+      "file": "20250924-2349-latest_10min_wind.csv",
+      "sha256": "ebd9c98ae57c559ab73396753ac2e30b6494de599269128147af3e45c1f2b386",
+      "bytes": 1246,
+      "archiveVersionTime": "20250924-2349",
+      "observationTimestamps": [
+        "202509242340"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-2349"
+    },
+    {
+      "file": "20250924-2329-latest_10min_wind.csv",
+      "sha256": "e609dce8464d95bd96a03950c98c334d1cfae1cb2dcc83813412b673f0e26d21",
+      "bytes": 1249,
+      "archiveVersionTime": "20250924-2329",
+      "observationTimestamps": [
+        "202509242320"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-2329"
+    },
+    {
+      "file": "20250924-1030-latest_10min_wind.csv",
+      "sha256": "782f8856c5b7219cdfa1cf8356a44111054f4dc9d5b6623e21657603d0eecafd",
+      "bytes": 1244,
+      "archiveVersionTime": "20250924-1030",
+      "observationTimestamps": [
+        "202509241020"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1030"
+    },
+    {
+      "file": "20250924-1059-latest_10min_wind.csv",
+      "sha256": "d5627caeb34adfda8767af6920d7bce70d301714e9b467fe7623c20f95e999a5",
+      "bytes": 1251,
+      "archiveVersionTime": "20250924-1059",
+      "observationTimestamps": [
+        "202509241050"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1059"
+    },
+    {
+      "file": "20250924-1130-latest_10min_wind.csv",
+      "sha256": "bf15c309a2641b4507ab48a724e4f7051bba873e9b828e7458fff38d74869704",
+      "bytes": 1279,
+      "archiveVersionTime": "20250924-1130",
+      "observationTimestamps": [
+        "202509241120"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1130"
+    },
+    {
+      "file": "20250924-1219-latest_10min_wind.csv",
+      "sha256": "95e84c8b43f6403c239d54ef1d6bf2eb762af931a363fe258477366008321c04",
+      "bytes": 1267,
+      "archiveVersionTime": "20250924-1219",
+      "observationTimestamps": [
+        "202509241210"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1219"
+    },
+    {
+      "file": "20250924-1429-latest_10min_wind.csv",
+      "sha256": "fc3b73612efcdd8de326f8d6a060bda997a78fa4e2adce1fd592a5239a7ecf7f",
+      "bytes": 1301,
+      "archiveVersionTime": "20250924-1429",
+      "observationTimestamps": [
+        "202509241420"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1429"
+    },
+    {
+      "file": "20250924-1511-latest_10min_wind.csv",
+      "sha256": "f3b877ed1bb7d55883830cc41187a9ce2fb1d6f086b50f8ba640e345653a3ff5",
+      "bytes": 1308,
+      "archiveVersionTime": "20250924-1511",
+      "observationTimestamps": [
+        "202509241500"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1511"
+    },
+    {
+      "file": "20250924-1510-latest_10min_wind.csv",
+      "sha256": "e4afed1edfa87a54b7581522194e9478471b37b0b05719e4aa93a5e08c40ed7f",
+      "bytes": 1311,
+      "archiveVersionTime": "20250924-1510",
+      "observationTimestamps": [
+        "202509241500"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1510"
+    },
+    {
+      "file": "20250924-1520-latest_10min_wind.csv",
+      "sha256": "472d39ee3704e03756f66fb18f220caedd483cdd6bbd05a3de24215b888ce5f9",
+      "bytes": 1313,
+      "archiveVersionTime": "20250924-1520",
+      "observationTimestamps": [
+        "202509241510"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1520"
+    },
+    {
+      "file": "20250924-1650-latest_10min_wind.csv",
+      "sha256": "784ef84b4582ebf586f835c2b33ca47a8c56f6857c1c48210cefbafa8e1879a0",
+      "bytes": 1317,
+      "archiveVersionTime": "20250924-1650",
+      "observationTimestamps": [
+        "202509241640"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1650"
+    },
+    {
+      "file": "20250924-1700-latest_10min_wind.csv",
+      "sha256": "0445d52bb8e0d4aa0a29708606a58b87f5eb6be2e3a5ff9c952fe08d6ffa0ae4",
+      "bytes": 1311,
+      "archiveVersionTime": "20250924-1700",
+      "observationTimestamps": [
+        "202509241650"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1700"
+    },
+    {
+      "file": "20250924-1739-latest_10min_wind.csv",
+      "sha256": "02c53067af0bdf01e70dd1b25e59ebd143a5aad81aa822746cd234475ae16046",
+      "bytes": 1314,
+      "archiveVersionTime": "20250924-1739",
+      "observationTimestamps": [
+        "202509241730"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1739"
+    },
+    {
+      "file": "20250924-1349-latest_10min_wind.csv",
+      "sha256": "b581b900b74befadebe3ae3b04d268b2c6ff7fc7d4f00111d39e808a9b7e5c91",
+      "bytes": 1300,
+      "archiveVersionTime": "20250924-1349",
+      "observationTimestamps": [
+        "202509241340"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1349"
+    },
+    {
+      "file": "20250924-1019-latest_10min_wind.csv",
+      "sha256": "9dea78662c47c0ab0d2da88917dc76e8a4345f4076a8f85fde250d0fc96c5ec0",
+      "bytes": 1260,
+      "archiveVersionTime": "20250924-1019",
+      "observationTimestamps": [
+        "202509241010"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1019"
+    },
+    {
+      "file": "20250924-1049-latest_10min_wind.csv",
+      "sha256": "1051d20c190d685a8810adca1510507d05acbc41225a40c99785d953c6a7467b",
+      "bytes": 1247,
+      "archiveVersionTime": "20250924-1049",
+      "observationTimestamps": [
+        "202509241040"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1049"
+    },
+    {
+      "file": "20250924-1110-latest_10min_wind.csv",
+      "sha256": "3a56c47d859230b9f590c30fdaae7725f7067fe36940fe0e468350ee23143c2d",
+      "bytes": 1264,
+      "archiveVersionTime": "20250924-1110",
+      "observationTimestamps": [
+        "202509241100"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1110"
+    },
+    {
+      "file": "20250924-1230-latest_10min_wind.csv",
+      "sha256": "89b11894be5b26a721907d8d1f461cee9c6f1d1713493ce39aa75992038c764d",
+      "bytes": 1279,
+      "archiveVersionTime": "20250924-1230",
+      "observationTimestamps": [
+        "202509241220"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1230"
+    },
+    {
+      "file": "20250924-1300-latest_10min_wind.csv",
+      "sha256": "4c15ae55d4299be125260fb079ee762276e4af8d7c20592cc833e21c510961e5",
+      "bytes": 1255,
+      "archiveVersionTime": "20250924-1300",
+      "observationTimestamps": [
+        "202509241250"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1300"
+    },
+    {
+      "file": "20250924-1339-latest_10min_wind.csv",
+      "sha256": "c22e148330e347365e8c5337bb621d3122dc7b9bf4ee7ef1d6c7a05720a1bf00",
+      "bytes": 1280,
+      "archiveVersionTime": "20250924-1339",
+      "observationTimestamps": [
+        "202509241330"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1339"
+    },
+    {
+      "file": "20250924-1540-latest_10min_wind.csv",
+      "sha256": "b9a6ecc4a04f57c2a9b263b14e2b28b69eb59a2d8bd09ac1d95051965c321c78",
+      "bytes": 1306,
+      "archiveVersionTime": "20250924-1540",
+      "observationTimestamps": [
+        "202509241530"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1540"
+    },
+    {
+      "file": "20250924-1550-latest_10min_wind.csv",
+      "sha256": "62ec962553d3709971e736e3a73aa2efac05d4a8ea51213c66baa7d930022caa",
+      "bytes": 1301,
+      "archiveVersionTime": "20250924-1550",
+      "observationTimestamps": [
+        "202509241540"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1550"
+    },
+    {
+      "file": "20250924-1820-latest_10min_wind.csv",
+      "sha256": "4b803331e846104dedb2c30a375a601f78dc61a2219506a0963606ec59108b18",
+      "bytes": 1270,
+      "archiveVersionTime": "20250924-1820",
+      "observationTimestamps": [
+        "202509241810"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1820"
+    },
+    {
+      "file": "20250924-1800-latest_10min_wind.csv",
+      "sha256": "ebbf5416fe3a1a1c2dc0f526197fbe0e9e7e75504a44f94f7abcf44c8a4f5597",
+      "bytes": 1279,
+      "archiveVersionTime": "20250924-1800",
+      "observationTimestamps": [
+        "202509241750"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1800"
+    },
+    {
+      "file": "20250924-1840-latest_10min_wind.csv",
+      "sha256": "a9d4f8b6a83af7cd32953e7998fe26db6a6610101ef1def823b2b53f24ad02f7",
+      "bytes": 1286,
+      "archiveVersionTime": "20250924-1840",
+      "observationTimestamps": [
+        "202509241830"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1840"
+    },
+    {
+      "file": "20250924-1910-latest_10min_wind.csv",
+      "sha256": "a3ec6ee07cec8fa0214cfe5c7d4b0db553516dde9f3254ae79fb0f793e517336",
+      "bytes": 1291,
+      "archiveVersionTime": "20250924-1910",
+      "observationTimestamps": [
+        "202509241900"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1910"
+    },
+    {
+      "file": "20250924-2029-latest_10min_wind.csv",
+      "sha256": "abc7b946e5bdaeda267ca27435deaa182dc7df142b5f5ff3f72a49db54b2fbf0",
+      "bytes": 1292,
+      "archiveVersionTime": "20250924-2029",
+      "observationTimestamps": [
+        "202509242020"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-2029"
+    },
+    {
+      "file": "20250924-1920-latest_10min_wind.csv",
+      "sha256": "6eec36db891c5076ade080bf0093856859a8e8b126454a5b4117ae7a534fbdc2",
+      "bytes": 1274,
+      "archiveVersionTime": "20250924-1920",
+      "observationTimestamps": [
+        "202509241910"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1920"
+    },
+    {
+      "file": "20250924-1940-latest_10min_wind.csv",
+      "sha256": "e58d2ef6f05ff4d2309aa8000d57619af5f35330878a33ad217bfebec54bfd4e",
+      "bytes": 1311,
+      "archiveVersionTime": "20250924-1940",
+      "observationTimestamps": [
+        "202509241930"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1940"
+    },
+    {
+      "file": "20250924-1949-latest_10min_wind.csv",
+      "sha256": "1102c004bf94b43e8c26105a80a97b0bd6a307a93375022143c3a63d6ec626c2",
+      "bytes": 1306,
+      "archiveVersionTime": "20250924-1949",
+      "observationTimestamps": [
+        "202509241940"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1949"
+    },
+    {
+      "file": "20250924-2009-latest_10min_wind.csv",
+      "sha256": "190a179f806d2379fbe60d7bf4e13adc2d8448abec974185099d6f02672a3d92",
+      "bytes": 1301,
+      "archiveVersionTime": "20250924-2009",
+      "observationTimestamps": [
+        "202509242000"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-2009"
+    },
+    {
+      "file": "20250924-2049-latest_10min_wind.csv",
+      "sha256": "ddcc6ec626797ab314b2670c9a867ea696de946a02b2acd66e1f6c97903a88a5",
+      "bytes": 1290,
+      "archiveVersionTime": "20250924-2049",
+      "observationTimestamps": [
+        "202509242040"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-2049"
+    },
+    {
+      "file": "20250924-2100-latest_10min_wind.csv",
+      "sha256": "6517c359645988a0892abb076cc3173cc76e61e551c171995bd98de6de046079",
+      "bytes": 1284,
+      "archiveVersionTime": "20250924-2100",
+      "observationTimestamps": [
+        "202509242050"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-2100"
+    },
+    {
+      "file": "20250924-2120-latest_10min_wind.csv",
+      "sha256": "e71b030f8ef67520d8aa04acad06c6fda9168be5ade82a6fae621c00c7da5749",
+      "bytes": 1267,
+      "archiveVersionTime": "20250924-2120",
+      "observationTimestamps": [
+        "202509242110"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-2120"
+    },
+    {
+      "file": "20250924-2129-latest_10min_wind.csv",
+      "sha256": "a2d768b5df6a9d913a53dfa65ae845effd27ded4d82afb47bafb86273c72d567",
+      "bytes": 1282,
+      "archiveVersionTime": "20250924-2129",
+      "observationTimestamps": [
+        "202509242120"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-2129"
+    },
+    {
+      "file": "20250924-2200-latest_10min_wind.csv",
+      "sha256": "ded03db5da36315871ca41215f12d41a80c99422b443f774e32df40f7089eeca",
+      "bytes": 1282,
+      "archiveVersionTime": "20250924-2200",
+      "observationTimestamps": [
+        "202509242150"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-2200"
+    },
+    {
+      "file": "20250924-2220-latest_10min_wind.csv",
+      "sha256": "800e231f1857df19e898e7736c05936e654595e08162951952b6627d563779fd",
+      "bytes": 1276,
+      "archiveVersionTime": "20250924-2220",
+      "observationTimestamps": [
+        "202509242210"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-2220"
+    },
+    {
+      "file": "20250924-2249-latest_10min_wind.csv",
+      "sha256": "65c1641ac78facde65e88576ac71447572befd64d39c72fa9d4afdb93c792c03",
+      "bytes": 1282,
+      "archiveVersionTime": "20250924-2249",
+      "observationTimestamps": [
+        "202509242240"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-2249"
+    },
+    {
+      "file": "20250924-2310-latest_10min_wind.csv",
+      "sha256": "ab653a1078bb96fee670eb4bc502442d2571e0258f6935510934d0902dcf124a",
+      "bytes": 1259,
+      "archiveVersionTime": "20250924-2310",
+      "observationTimestamps": [
+        "202509242300"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-2310"
+    },
+    {
+      "file": "20250923-0020-latest_10min_wind.csv",
+      "sha256": "ccf706ca4bc0933718a983ed15fea1213283dd120348e1685e756e30cc3c31d9",
+      "bytes": 1251,
+      "archiveVersionTime": "20250923-0020",
+      "observationTimestamps": [
+        "202509230010"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0020"
+    },
+    {
+      "file": "20250923-0059-latest_10min_wind.csv",
+      "sha256": "5441f9b26e6b3d7fcc668ac7ade30d5c5acfe6b4254b34fa8a7eb1fee527f0ac",
+      "bytes": 1275,
+      "archiveVersionTime": "20250923-0059",
+      "observationTimestamps": [
+        "202509230050"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0059"
+    },
+    {
+      "file": "20250923-0049-latest_10min_wind.csv",
+      "sha256": "e7d312f5b335165c7873110bec1cd7f2346326ebfb27b1bfb6634393555a3363",
+      "bytes": 1262,
+      "archiveVersionTime": "20250923-0049",
+      "observationTimestamps": [
+        "202509230040"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0049"
+    },
+    {
+      "file": "20250923-0110-latest_10min_wind.csv",
+      "sha256": "1d9e1db37747fc299763c85be77ae1f55b9d46d60cc5071c68ec7cd22b759184",
+      "bytes": 1271,
+      "archiveVersionTime": "20250923-0110",
+      "observationTimestamps": [
+        "202509230100"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0110"
+    },
+    {
+      "file": "20250923-0120-latest_10min_wind.csv",
+      "sha256": "e19562f99db81a39127f0798fa4519b92ba16d1757d9f436041ab1009daf35c8",
+      "bytes": 1255,
+      "archiveVersionTime": "20250923-0120",
+      "observationTimestamps": [
+        "202509230110"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0120"
+    },
+    {
+      "file": "20250923-0130-latest_10min_wind.csv",
+      "sha256": "565961383be411724d122f56228c5a3006fa402285d7df0746284437be708944",
+      "bytes": 1266,
+      "archiveVersionTime": "20250923-0130",
+      "observationTimestamps": [
+        "202509230120"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0130"
+    },
+    {
+      "file": "20250923-0139-latest_10min_wind.csv",
+      "sha256": "585e38f0a7a27abb3d00b07b5b4c65fd532439dc98511daed3ccd6e76a0d3324",
+      "bytes": 1266,
+      "archiveVersionTime": "20250923-0139",
+      "observationTimestamps": [
+        "202509230130"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0139"
+    },
+    {
+      "file": "20250923-0210-latest_10min_wind.csv",
+      "sha256": "10d23ce118c62728be011ba92e3de36f5437d786496b12a4ee6f9fe6950785dd",
+      "bytes": 1262,
+      "archiveVersionTime": "20250923-0210",
+      "observationTimestamps": [
+        "202509230200"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0210"
+    },
+    {
+      "file": "20250923-0159-latest_10min_wind.csv",
+      "sha256": "057465702b04b6109093a7dc9e9fc1cbfd9bac12f6437915a38649010f4c95ff",
+      "bytes": 1262,
+      "archiveVersionTime": "20250923-0159",
+      "observationTimestamps": [
+        "202509230150"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0159"
+    },
+    {
+      "file": "20250923-0239-latest_10min_wind.csv",
+      "sha256": "f5eeea87186180c147d926ee482ae78e4ed215a802b471f133f8b62bfd99994e",
+      "bytes": 1264,
+      "archiveVersionTime": "20250923-0239",
+      "observationTimestamps": [
+        "202509230230"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0239"
+    },
+    {
+      "file": "20250923-0310-latest_10min_wind.csv",
+      "sha256": "4736586f05cd4b308e931600f8863f892505f9eb203630403fd9b25c4cf4a4c1",
+      "bytes": 1270,
+      "archiveVersionTime": "20250923-0310",
+      "observationTimestamps": [
+        "202509230300"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0310"
+    },
+    {
+      "file": "20250923-0259-latest_10min_wind.csv",
+      "sha256": "5b82472720fbea472ea5e3ddb88edabdefdaa5d20c43429c300ae42b0eb1db0c",
+      "bytes": 1256,
+      "archiveVersionTime": "20250923-0259",
+      "observationTimestamps": [
+        "202509230250"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0259"
+    },
+    {
+      "file": "20250923-0330-latest_10min_wind.csv",
+      "sha256": "98d8042fd6732dd70956b9154893dc915166e9eb587ca82da761823f1b2adff7",
+      "bytes": 1265,
+      "archiveVersionTime": "20250923-0330",
+      "observationTimestamps": [
+        "202509230320"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0330"
+    },
+    {
+      "file": "20250924-0010-latest_10min_wind.csv",
+      "sha256": "9c37c64999933461ddbcb038977f6258a0f9e2e35ba14fcc9acc3519417b94e8",
+      "bytes": 1279,
+      "archiveVersionTime": "20250924-0010",
+      "observationTimestamps": [
+        "202509240000"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0010"
+    },
+    {
+      "file": "20250924-0050-latest_10min_wind.csv",
+      "sha256": "ee529f2ee471953b992b27c78352cbb58f62d8d2ba4eb57995440f24c74f8a19",
+      "bytes": 1286,
+      "archiveVersionTime": "20250924-0050",
+      "observationTimestamps": [
+        "202509240040"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0050"
+    },
+    {
+      "file": "20250924-0029-latest_10min_wind.csv",
+      "sha256": "2f6c293277da91d3020a46bbfc7f6f943d2542208aee6663472a1badd38ad222",
+      "bytes": 1293,
+      "archiveVersionTime": "20250924-0029",
+      "observationTimestamps": [
+        "202509240020"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0029"
+    },
+    {
+      "file": "20250923-2329-latest_10min_wind.csv",
+      "sha256": "8a88ea6f205ebcd607d7ed65c4835d43ff5d1d9b52cd596adace9415d918f1ec",
+      "bytes": 1281,
+      "archiveVersionTime": "20250923-2329",
+      "observationTimestamps": [
+        "202509232320"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-2329"
+    },
+    {
+      "file": "20250924-0030-latest_10min_wind.csv",
+      "sha256": "2807e7aedadf5e4ef4be872a1868eca96b4e2d644df983d34fdee60c763e4cdb",
+      "bytes": 1299,
+      "archiveVersionTime": "20250924-0030",
+      "observationTimestamps": [
+        "202509240020"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0030"
+    },
+    {
+      "file": "20250924-0110-latest_10min_wind.csv",
+      "sha256": "5daf6252a981db3a69b24775589ea8f75e08dc951b3396d16577fb9a888d5c96",
+      "bytes": 1287,
+      "archiveVersionTime": "20250924-0110",
+      "observationTimestamps": [
+        "202509240100"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0110"
+    },
+    {
+      "file": "20250924-0150-latest_10min_wind.csv",
+      "sha256": "c00602935bc27a4fba0d31a0b835597b707781183c1ef06fbe7fa90263edcc60",
+      "bytes": 1288,
+      "archiveVersionTime": "20250924-0150",
+      "observationTimestamps": [
+        "202509240140"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0150"
+    },
+    {
+      "file": "20250924-0149-latest_10min_wind.csv",
+      "sha256": "2d29437f05d5b53f594e6d4f862114c04672c8d14cda0f64cdf59f58474da201",
+      "bytes": 1282,
+      "archiveVersionTime": "20250924-0149",
+      "observationTimestamps": [
+        "202509240140"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0149"
+    },
+    {
+      "file": "20250924-0210-latest_10min_wind.csv",
+      "sha256": "cfe1b9105fd8d6eb2e88dca2dba31f69ac4e5c82b0783610d3de2c48305c3481",
+      "bytes": 1309,
+      "archiveVersionTime": "20250924-0210",
+      "observationTimestamps": [
+        "202509240200"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0210"
+    },
+    {
+      "file": "20250924-0200-latest_10min_wind.csv",
+      "sha256": "258b9f1b06a7f9dfc176ef82d4b6c266a57263b23daa56cfc1098d5edf4c04ad",
+      "bytes": 1307,
+      "archiveVersionTime": "20250924-0200",
+      "observationTimestamps": [
+        "202509240150"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0200"
+    },
+    {
+      "file": "20250924-0220-latest_10min_wind.csv",
+      "sha256": "53095c0b374fdd67058fe5983c7b73377ad81f74f595f1ae61eec51f6dde97ec",
+      "bytes": 1313,
+      "archiveVersionTime": "20250924-0220",
+      "observationTimestamps": [
+        "202509240210"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0220"
+    },
+    {
+      "file": "20250924-0319-latest_10min_wind.csv",
+      "sha256": "816db35a7395a346696d9ba01887cdb7f8449e4a7d2a7ab3f0eb8cc2662dd30e",
+      "bytes": 1335,
+      "archiveVersionTime": "20250924-0319",
+      "observationTimestamps": [
+        "202509240310"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0319"
+    },
+    {
+      "file": "20250924-0329-latest_10min_wind.csv",
+      "sha256": "1248f6b91d16d0072cf5138a7acdc8229aa4c5c7990aad56025e4ebe2e1a5620",
+      "bytes": 1341,
+      "archiveVersionTime": "20250924-0329",
+      "observationTimestamps": [
+        "202509240320"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0329"
+    },
+    {
+      "file": "20250924-0340-latest_10min_wind.csv",
+      "sha256": "cdc4158376770506e0ee8f7fa513b4af6edfe6471686d1be185be214a4ee7ee1",
+      "bytes": 1350,
+      "archiveVersionTime": "20250924-0340",
+      "observationTimestamps": [
+        "202509240330"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0340"
+    },
+    {
+      "file": "20250924-0350-latest_10min_wind.csv",
+      "sha256": "b598882f460c4a456426fdaf43a822d6a3628362479e6efdd389d6bda7953bed",
+      "bytes": 1335,
+      "archiveVersionTime": "20250924-0350",
+      "observationTimestamps": [
+        "202509240340"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0350"
+    },
+    {
+      "file": "20250924-0400-latest_10min_wind.csv",
+      "sha256": "311b6f560440d93fd075b15bb3e9fc9ec3601f47e6776b679ad9bd33a3d82b8a",
+      "bytes": 1350,
+      "archiveVersionTime": "20250924-0400",
+      "observationTimestamps": [
+        "202509240350"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0400"
+    },
+    {
+      "file": "20250924-0410-latest_10min_wind.csv",
+      "sha256": "d0f28d784a7467be036261ba3dca9022be39e53fc71bd7ee3576ac59f0e50516",
+      "bytes": 1342,
+      "archiveVersionTime": "20250924-0410",
+      "observationTimestamps": [
+        "202509240400"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0410"
+    },
+    {
+      "file": "20250923-1930-latest_10min_wind.csv",
+      "sha256": "5f1a45d3a258b3847009780e0af304721b2c536ee1cd386102b9c7aefa2e8b10",
+      "bytes": 1287,
+      "archiveVersionTime": "20250923-1930",
+      "observationTimestamps": [
+        "202509231920"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1930"
+    },
+    {
+      "file": "20250923-1750-latest_10min_wind.csv",
+      "sha256": "093f4a8fbb7705c2c124d61fb95bf5d43713ada61aae9262bb78633ff193f971",
+      "bytes": 1283,
+      "archiveVersionTime": "20250923-1750",
+      "observationTimestamps": [
+        "202509231740"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1750"
+    },
+    {
+      "file": "20250923-1800-latest_10min_wind.csv",
+      "sha256": "104e03fa28c0e59b349700d94ea4c4c40cfb45178f63c564e3e24896d4ecf6e0",
+      "bytes": 1283,
+      "archiveVersionTime": "20250923-1800",
+      "observationTimestamps": [
+        "202509231750"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1800"
+    },
+    {
+      "file": "20250923-1820-latest_10min_wind.csv",
+      "sha256": "1e90c3d28855896f9b52c39f1f92e2ebfb2d5d878aa5736049fcf65b9441cdfd",
+      "bytes": 1274,
+      "archiveVersionTime": "20250923-1820",
+      "observationTimestamps": [
+        "202509231810"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1820"
+    },
+    {
+      "file": "20250923-1840-latest_10min_wind.csv",
+      "sha256": "f18cf0b620def9d8c39f0cfda333e212c76eeb73a7420e20388ca50f2ba33239",
+      "bytes": 1291,
+      "archiveVersionTime": "20250923-1840",
+      "observationTimestamps": [
+        "202509231830"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1840"
+    },
+    {
+      "file": "20250923-1959-latest_10min_wind.csv",
+      "sha256": "9ce64035938e98d8a61297357a5c2edd5894f7069f81d0450ec7d21997569e30",
+      "bytes": 1264,
+      "archiveVersionTime": "20250923-1959",
+      "observationTimestamps": [
+        "202509231950"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1959"
+    },
+    {
+      "file": "20250923-1939-latest_10min_wind.csv",
+      "sha256": "51ddba8c7bfac651827175fd7cd89d6c650bed52088cf65f738c096dfe447794",
+      "bytes": 1287,
+      "archiveVersionTime": "20250923-1939",
+      "observationTimestamps": [
+        "202509231930"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1939"
+    },
+    {
+      "file": "20250923-2009-latest_10min_wind.csv",
+      "sha256": "d398002da3953d51a52964d60ab1f4cb73f0313f1fdca85804b95c7466080b54",
+      "bytes": 1264,
+      "archiveVersionTime": "20250923-2009",
+      "observationTimestamps": [
+        "202509232000"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-2009"
+    },
+    {
+      "file": "20250923-2019-latest_10min_wind.csv",
+      "sha256": "424a3a89f85678367188b3a38137514aeb90c33fa383e3a68915408eb3d6c459",
+      "bytes": 1288,
+      "archiveVersionTime": "20250923-2019",
+      "observationTimestamps": [
+        "202509232010"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-2019"
+    },
+    {
+      "file": "20250923-2039-latest_10min_wind.csv",
+      "sha256": "f3639cfb1ed28fbb5af245dfc9a3084ae36b3dc31f7695bf475e7951bfc8235b",
+      "bytes": 1283,
+      "archiveVersionTime": "20250923-2039",
+      "observationTimestamps": [
+        "202509232030"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-2039"
+    },
+    {
+      "file": "20250923-2140-latest_10min_wind.csv",
+      "sha256": "784ebe77bf54bb34bfa00aad9f3567c780a216e01cff17e207a99addf655b842",
+      "bytes": 1283,
+      "archiveVersionTime": "20250923-2140",
+      "observationTimestamps": [
+        "202509232130"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-2140"
+    },
+    {
+      "file": "20250923-2139-latest_10min_wind.csv",
+      "sha256": "1590fb48a28a36577d43533441c88e6d6c5e7553101262881754fd0cc25edf56",
+      "bytes": 1286,
+      "archiveVersionTime": "20250923-2139",
+      "observationTimestamps": [
+        "202509232130"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-2139"
+    },
+    {
+      "file": "20250923-2300-latest_10min_wind.csv",
+      "sha256": "e9962e995e2c1261f7737c483133037be17eea6d8dbb2e78b54da724b98fadad",
+      "bytes": 1285,
+      "archiveVersionTime": "20250923-2300",
+      "observationTimestamps": [
+        "202509232250"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-2300"
+    },
+    {
+      "file": "20250923-2220-latest_10min_wind.csv",
+      "sha256": "017859ffd8b35fbbca38105446c49c22662d0692c41621503e8efbcb315ce39b",
+      "bytes": 1278,
+      "archiveVersionTime": "20250923-2220",
+      "observationTimestamps": [
+        "202509232210"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-2220"
+    },
+    {
+      "file": "20250923-0400-latest_10min_wind.csv",
+      "sha256": "8d3ddbff6bb3da1d7dadf88846dce97553e7d3d0f75a0f1b52fa790dedeb1b84",
+      "bytes": 1261,
+      "archiveVersionTime": "20250923-0400",
+      "observationTimestamps": [
+        "202509230350"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0400"
+    },
+    {
+      "file": "20250923-0410-latest_10min_wind.csv",
+      "sha256": "85244ec46dcecd5ba73000ed285c158480d7c7b7922cce117317c525dbcbb43b",
+      "bytes": 1266,
+      "archiveVersionTime": "20250923-0410",
+      "observationTimestamps": [
+        "202509230400"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0410"
+    },
+    {
+      "file": "20250923-0450-latest_10min_wind.csv",
+      "sha256": "c709c2c66a74845b05e83a8c4d91c0624e3ffd94ef2b0f20d2e1be545906aac6",
+      "bytes": 1255,
+      "archiveVersionTime": "20250923-0450",
+      "observationTimestamps": [
+        "202509230440"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0450"
+    },
+    {
+      "file": "20250923-0520-latest_10min_wind.csv",
+      "sha256": "41e5ddb6bb7f7bfc58754057a00d95d7531d82a2a46654e151af7fbb92e6dd84",
+      "bytes": 1258,
+      "archiveVersionTime": "20250923-0520",
+      "observationTimestamps": [
+        "202509230510"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0520"
+    },
+    {
+      "file": "20250923-0540-latest_10min_wind.csv",
+      "sha256": "810e19ceb868216b158abe07d2263a06666c8bc06d168cd326d364075e6f196b",
+      "bytes": 1267,
+      "archiveVersionTime": "20250923-0540",
+      "observationTimestamps": [
+        "202509230530"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0540"
+    },
+    {
+      "file": "20250923-0550-latest_10min_wind.csv",
+      "sha256": "d4650fd6003ecc89e1acda55ddbb5dc73a44d030b53a1fd09adfb23296395db5",
+      "bytes": 1261,
+      "archiveVersionTime": "20250923-0550",
+      "observationTimestamps": [
+        "202509230540"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0550"
+    },
+    {
+      "file": "20250923-0611-latest_10min_wind.csv",
+      "sha256": "f9118a21b26f2f78ea41ce1ee71bb79ea2bebf3faedbcaae31ef8d7e2ce15423",
+      "bytes": 1264,
+      "archiveVersionTime": "20250923-0611",
+      "observationTimestamps": [
+        "202509230600"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0611"
+    },
+    {
+      "file": "20250923-0649-latest_10min_wind.csv",
+      "sha256": "7130247927abce1a66d3585776bb381376af2294e0fef1644b6a2c328847df60",
+      "bytes": 1267,
+      "archiveVersionTime": "20250923-0649",
+      "observationTimestamps": [
+        "202509230640"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0649"
+    },
+    {
+      "file": "20250923-1139-latest_10min_wind.csv",
+      "sha256": "0e4dc4d9d05f91e86a96c6ae004b265ee23b7e7f56718b2b61c8ea076dbc89c7",
+      "bytes": 1289,
+      "archiveVersionTime": "20250923-1139",
+      "observationTimestamps": [
+        "202509231130"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1139"
+    },
+    {
+      "file": "20250923-1220-latest_10min_wind.csv",
+      "sha256": "3b8325732cd27048436564e2e3bc0936b7a0d4c87d9fedf0655f9fec48ee5613",
+      "bytes": 1295,
+      "archiveVersionTime": "20250923-1220",
+      "observationTimestamps": [
+        "202509231210"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1220"
+    },
+    {
+      "file": "20250924-0019-latest_10min_wind.csv",
+      "sha256": "42b826cdc48b6376b290b746b3d4d330dc01bf5c8d24e055e5b509602f8f92e7",
+      "bytes": 1279,
+      "archiveVersionTime": "20250924-0019",
+      "observationTimestamps": [
+        "202509240010"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0019"
+    },
+    {
+      "file": "20250923-1229-latest_10min_wind.csv",
+      "sha256": "d6f2df558189ab405ea1e40c30ec3546d3fab1e96a911f39508e11148b91af7c",
+      "bytes": 1295,
+      "archiveVersionTime": "20250923-1229",
+      "observationTimestamps": [
+        "202509231220"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1229"
+    },
+    {
+      "file": "20250924-0040-latest_10min_wind.csv",
+      "sha256": "5beee2734860124ff58f754f100d207630d4bc072955fe8f5cb4f63668e8a9f3",
+      "bytes": 1289,
+      "archiveVersionTime": "20250924-0040",
+      "observationTimestamps": [
+        "202509240030"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0040"
+    },
+    {
+      "file": "20250924-0039-latest_10min_wind.csv",
+      "sha256": "9bf2327a72fb1d8bca8109bd6a366fd34adc824205c78686fb2fb4d8fcd33b35",
+      "bytes": 1299,
+      "archiveVersionTime": "20250924-0039",
+      "observationTimestamps": [
+        "202509240030"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0039"
+    },
+    {
+      "file": "20250924-0130-latest_10min_wind.csv",
+      "sha256": "18a2a5af5b69cd0b3759e4e174ce5de205f395a7fca8a4b0177c1861c099275e",
+      "bytes": 1284,
+      "archiveVersionTime": "20250924-0130",
+      "observationTimestamps": [
+        "202509240120"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0130"
+    },
+    {
+      "file": "20250924-0139-latest_10min_wind.csv",
+      "sha256": "ddf29c8cd568f9c86a87b7294df331970b7a4ae12e8af65e0207ce935a5e22cb",
+      "bytes": 1282,
+      "archiveVersionTime": "20250924-0139",
+      "observationTimestamps": [
+        "202509240130"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0139"
+    },
+    {
+      "file": "20250924-0020-latest_10min_wind.csv",
+      "sha256": "1c04f2a64c0ecfd710d7f72c55940009257c320bd0917b380d7fd9db65321e56",
+      "bytes": 1293,
+      "archiveVersionTime": "20250924-0020",
+      "observationTimestamps": [
+        "202509240010"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0020"
+    },
+    {
+      "file": "20250924-0209-latest_10min_wind.csv",
+      "sha256": "0fd3e22c199055822e9a2918e16d0a4f36997ec1175bf329805ce1e61db6a5ab",
+      "bytes": 1307,
+      "archiveVersionTime": "20250924-0209",
+      "observationTimestamps": [
+        "202509240200"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0209"
+    },
+    {
+      "file": "20250924-0240-latest_10min_wind.csv",
+      "sha256": "336443b938aa9982486a29d78c731b4b4ec46f52ba3aef111c11bc65671e66c7",
+      "bytes": 1322,
+      "archiveVersionTime": "20250924-0240",
+      "observationTimestamps": [
+        "202509240230"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0240"
+    },
+    {
+      "file": "20250924-0230-latest_10min_wind.csv",
+      "sha256": "abefbfe62a287de987e32fc7026d83904d86ce0ff527c8132b79f04cd49dff55",
+      "bytes": 1317,
+      "archiveVersionTime": "20250924-0230",
+      "observationTimestamps": [
+        "202509240220"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0230"
+    },
+    {
+      "file": "20250924-0320-latest_10min_wind.csv",
+      "sha256": "bb2da7857263ab443c6d989d40333079775031493e63736478f5abb1563a489f",
+      "bytes": 1341,
+      "archiveVersionTime": "20250924-0320",
+      "observationTimestamps": [
+        "202509240310"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0320"
+    },
+    {
+      "file": "20250924-1939-latest_10min_wind.csv",
+      "sha256": "ddb19bb29eb6e56e38e3e407578164372afeb72b2b844b3df5c001d81e569466",
+      "bytes": 1301,
+      "archiveVersionTime": "20250924-1939",
+      "observationTimestamps": [
+        "202509241930"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1939"
+    },
+    {
+      "file": "20250924-2000-latest_10min_wind.csv",
+      "sha256": "48588c66924268df49e10beff7d3c43ce4237dcb36733baff2508addaa323ab0",
+      "bytes": 1301,
+      "archiveVersionTime": "20250924-2000",
+      "observationTimestamps": [
+        "202509241950"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-2000"
+    },
+    {
+      "file": "20250924-2030-latest_10min_wind.csv",
+      "sha256": "2ec90069160d65343c0a65e29adce0daf6cbadcdf767f12b77ddf6b38ff49e72",
+      "bytes": 1291,
+      "archiveVersionTime": "20250924-2030",
+      "observationTimestamps": [
+        "202509242020"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-2030"
+    },
+    {
+      "file": "20250924-1850-latest_10min_wind.csv",
+      "sha256": "8c156f556f1ab0cc0f71cc281238b84745d9e5e9d3f01fdedbb207dcf5671d5e",
+      "bytes": 1288,
+      "archiveVersionTime": "20250924-1850",
+      "observationTimestamps": [
+        "202509241840"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1850"
+    },
+    {
+      "file": "20250924-1859-latest_10min_wind.csv",
+      "sha256": "d763c16a5e306874c30beea804c3b67c58eb5afce94a4a841731d4c201f8ddef",
+      "bytes": 1270,
+      "archiveVersionTime": "20250924-1859",
+      "observationTimestamps": [
+        "202509241850"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1859"
+    },
+    {
+      "file": "20250924-2050-latest_10min_wind.csv",
+      "sha256": "329b9b419d6a972c79070a9a20e6176043521767da394c22ca17c57428285573",
+      "bytes": 1284,
+      "archiveVersionTime": "20250924-2050",
+      "observationTimestamps": [
+        "202509242040"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-2050"
+    },
+    {
+      "file": "20250924-2150-latest_10min_wind.csv",
+      "sha256": "406d1f1594ff408a090632a64a30ad85d1de62456605c725a6f3bf9740640d9a",
+      "bytes": 1291,
+      "archiveVersionTime": "20250924-2150",
+      "observationTimestamps": [
+        "202509242140"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-2150"
+    },
+    {
+      "file": "20250924-2210-latest_10min_wind.csv",
+      "sha256": "691a7629a8d1923e51448f55f6251f4d09385a6fc6355353b17d1b906d3452ac",
+      "bytes": 1282,
+      "archiveVersionTime": "20250924-2210",
+      "observationTimestamps": [
+        "202509242200"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-2210"
+    },
+    {
+      "file": "20250924-2219-latest_10min_wind.csv",
+      "sha256": "5b510fda3da9668ff9c112f09600038cc3a4c5ff04992121b832b6f24048d5f6",
+      "bytes": 1282,
+      "archiveVersionTime": "20250924-2219",
+      "observationTimestamps": [
+        "202509242210"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-2219"
+    },
+    {
+      "file": "20250924-2230-latest_10min_wind.csv",
+      "sha256": "16375d834ea7c4a63f48e311e966b6575ec098ec7ea1efab282ad016bac38248",
+      "bytes": 1292,
+      "archiveVersionTime": "20250924-2230",
+      "observationTimestamps": [
+        "202509242220"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-2230"
+    },
+    {
+      "file": "20250924-2300-latest_10min_wind.csv",
+      "sha256": "6ef869b7773cb05912e2711741f8f4fb6c0e77cc8ab0d6464e593e22d07071b7",
+      "bytes": 1261,
+      "archiveVersionTime": "20250924-2300",
+      "observationTimestamps": [
+        "202509242250"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-2300"
+    },
+    {
+      "file": "20250924-2250-latest_10min_wind.csv",
+      "sha256": "26be1424f7b12440bc59fbacb4e5fe184eb08b20a15baab1deec0cb1dada23cc",
+      "bytes": 1277,
+      "archiveVersionTime": "20250924-2250",
+      "observationTimestamps": [
+        "202509242240"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-2250"
+    },
+    {
+      "file": "20250924-2319-latest_10min_wind.csv",
+      "sha256": "e61158026f2d8e8821a4945e0dfadd4275828499e5f1f07599e92408af180c1e",
+      "bytes": 1259,
+      "archiveVersionTime": "20250924-2319",
+      "observationTimestamps": [
+        "202509242310"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-2319"
+    },
+    {
+      "file": "20250924-2340-latest_10min_wind.csv",
+      "sha256": "8e556ae4f407abd794d0873a088a9d266652d9864ce9495ba1e031f9165366e8",
+      "bytes": 1250,
+      "archiveVersionTime": "20250924-2340",
+      "observationTimestamps": [
+        "202509242330"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-2340"
+    },
+    {
+      "file": "20250924-2339-latest_10min_wind.csv",
+      "sha256": "c9b146b1d2b505af45506855cc40c34f8e2d83e1c2d42a25440a524ae2e4b2a3",
+      "bytes": 1254,
+      "archiveVersionTime": "20250924-2339",
+      "observationTimestamps": [
+        "202509242330"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-2339"
+    },
+    {
+      "file": "20250923-0349-latest_10min_wind.csv",
+      "sha256": "199ef9cdd0fefeb580d9b36fe2a7eddc3d22d8e84dd46c8fa04b133b61075a5d",
+      "bytes": 1267,
+      "archiveVersionTime": "20250923-0349",
+      "observationTimestamps": [
+        "202509230340"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0349"
+    },
+    {
+      "file": "20250923-0419-latest_10min_wind.csv",
+      "sha256": "82bf1cadcfd3c2303370f89f95c5a77ffae26b9d27ae3d0988b61dc3855a13d3",
+      "bytes": 1266,
+      "archiveVersionTime": "20250923-0419",
+      "observationTimestamps": [
+        "202509230410"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0419"
+    },
+    {
+      "file": "20250923-0500-latest_10min_wind.csv",
+      "sha256": "18b4b42f77caa58462b867d26fb8ed71c731fc390a564e2b2f2e4249146516c1",
+      "bytes": 1270,
+      "archiveVersionTime": "20250923-0500",
+      "observationTimestamps": [
+        "202509230450"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0500"
+    },
+    {
+      "file": "20250923-0459-latest_10min_wind.csv",
+      "sha256": "8dd7191cfce035c442d1b4f07dacd588fecd2a47a6d2132351876bc4fe531d78",
+      "bytes": 1270,
+      "archiveVersionTime": "20250923-0459",
+      "observationTimestamps": [
+        "202509230450"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0459"
+    },
+    {
+      "file": "20250923-0559-latest_10min_wind.csv",
+      "sha256": "f2d90dc2ab1383f419817db10ebbf7fb40aa9b97a08429541a8ba0840283de55",
+      "bytes": 1268,
+      "archiveVersionTime": "20250923-0559",
+      "observationTimestamps": [
+        "202509230550"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0559"
+    },
+    {
+      "file": "20250923-0510-latest_10min_wind.csv",
+      "sha256": "fc433211b5a8b3b0d1d87cc37c84255c03833ffdace422882deeba748a1d94a4",
+      "bytes": 1264,
+      "archiveVersionTime": "20250923-0510",
+      "observationTimestamps": [
+        "202509230500"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0510"
+    },
+    {
+      "file": "20250923-0700-latest_10min_wind.csv",
+      "sha256": "3c8d4b213bd6f22ffb24fce2485772f50010bcd718b481e2384250d557480d1f",
+      "bytes": 1275,
+      "archiveVersionTime": "20250923-0700",
+      "observationTimestamps": [
+        "202509230650"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0700"
+    },
+    {
+      "file": "20250923-0659-latest_10min_wind.csv",
+      "sha256": "6c2dc29b4be1efedd4f92d80d6679a501fe2f3cf2bbc45e8d8dd02c980fbce8f",
+      "bytes": 1267,
+      "archiveVersionTime": "20250923-0659",
+      "observationTimestamps": [
+        "202509230650"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0659"
+    },
+    {
+      "file": "20250923-0721-latest_10min_wind.csv",
+      "sha256": "7110e37af683138851789e4efd40aa0cb97ae4084ee4ece66fce8b5ca9e01c5f",
+      "bytes": 1262,
+      "archiveVersionTime": "20250923-0721",
+      "observationTimestamps": [
+        "202509230710"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0721"
+    },
+    {
+      "file": "20250923-0719-latest_10min_wind.csv",
+      "sha256": "91137f7bae585f1676c987ec9c376018f4665d8d81f580a004e43a0a30679f04",
+      "bytes": 1267,
+      "archiveVersionTime": "20250923-0719",
+      "observationTimestamps": [
+        "202509230710"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0719"
+    },
+    {
+      "file": "20250923-0439-latest_10min_wind.csv",
+      "sha256": "a49c672a6ca86e50bbdb4324231495c9ce80ac423b99b5bc5599d9fdedbe05f2",
+      "bytes": 1268,
+      "archiveVersionTime": "20250923-0439",
+      "observationTimestamps": [
+        "202509230430"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0439"
+    },
+    {
+      "file": "20250923-0539-latest_10min_wind.csv",
+      "sha256": "80940227d024a6c165a814b1d253958c83b00a0a028da5b8b0f986c3b0e17ff7",
+      "bytes": 1278,
+      "archiveVersionTime": "20250923-0539",
+      "observationTimestamps": [
+        "202509230530"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0539"
+    },
+    {
+      "file": "20250923-0710-latest_10min_wind.csv",
+      "sha256": "b22ef8cc352c45e5ebe10aa3b252b9bd276fe1d0316511f01231fed058bb64b8",
+      "bytes": 1262,
+      "archiveVersionTime": "20250923-0710",
+      "observationTimestamps": [
+        "202509230700"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0710"
+    },
+    {
+      "file": "20250923-0820-latest_10min_wind.csv",
+      "sha256": "281100c32c81f4bd0e8d5f1bb717f510172b269c18ed99514c6ae87f3c634d68",
+      "bytes": 1288,
+      "archiveVersionTime": "20250923-0820",
+      "observationTimestamps": [
+        "202509230810"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0820"
+    },
+    {
+      "file": "20250923-0829-latest_10min_wind.csv",
+      "sha256": "9ce081601acddbf7a377aec9e57a25aba070ed8d05d17bc1fe2073cacf1b6e9c",
+      "bytes": 1288,
+      "archiveVersionTime": "20250923-0829",
+      "observationTimestamps": [
+        "202509230820"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0829"
+    },
+    {
+      "file": "20250923-0839-latest_10min_wind.csv",
+      "sha256": "10f797da3d6175ecfa36c12f99cfec57a767c03ee5519ee285846542d04c7ca7",
+      "bytes": 1273,
+      "archiveVersionTime": "20250923-0839",
+      "observationTimestamps": [
+        "202509230830"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0839"
+    },
+    {
+      "file": "20250923-0850-latest_10min_wind.csv",
+      "sha256": "4a237fb4c6a01e0e3cec7a4cfd6aaf4db0b9d6abf3cb5bde4f9bed6c620e1adc",
+      "bytes": 1281,
+      "archiveVersionTime": "20250923-0850",
+      "observationTimestamps": [
+        "202509230840"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0850"
+    },
+    {
+      "file": "20250923-0900-latest_10min_wind.csv",
+      "sha256": "b3f82306c4dbceee9ba82a367a1f5f7ea3a95b5d9432f4a5512c2e834505b277",
+      "bytes": 1291,
+      "archiveVersionTime": "20250923-0900",
+      "observationTimestamps": [
+        "202509230850"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0900"
+    },
+    {
+      "file": "20250923-0910-latest_10min_wind.csv",
+      "sha256": "2c97f44985ee50fd2bfef10e5a27aba15f95218a833b5e13fb956945ae6fb784",
+      "bytes": 1291,
+      "archiveVersionTime": "20250923-0910",
+      "observationTimestamps": [
+        "202509230900"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0910"
+    },
+    {
+      "file": "20250923-0929-latest_10min_wind.csv",
+      "sha256": "162da6a4574a54ac27fe56acbd53ba5f706118401ec2cff9175d2f6b9ebd1822",
+      "bytes": 1298,
+      "archiveVersionTime": "20250923-0929",
+      "observationTimestamps": [
+        "202509230920"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0929"
+    },
+    {
+      "file": "20250923-0939-latest_10min_wind.csv",
+      "sha256": "64a5c266425b0cceadc08c992c577797607d9294fba746b1425916581e3f6be4",
+      "bytes": 1285,
+      "archiveVersionTime": "20250923-0939",
+      "observationTimestamps": [
+        "202509230930"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0939"
+    },
+    {
+      "file": "20250923-1000-latest_10min_wind.csv",
+      "sha256": "09b5b1f0ea2fe427ca9fc32e95631fa4e545d383802dd28086ae9b6cb25f2953",
+      "bytes": 1292,
+      "archiveVersionTime": "20250923-1000",
+      "observationTimestamps": [
+        "202509230950"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1000"
+    },
+    {
+      "file": "20250923-1010-latest_10min_wind.csv",
+      "sha256": "811f5e9632cb8551b4bf1965782e53dc69481d3303a5fabd50873177082d6c18",
+      "bytes": 1284,
+      "archiveVersionTime": "20250923-1010",
+      "observationTimestamps": [
+        "202509231000"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1010"
+    },
+    {
+      "file": "20250923-1050-latest_10min_wind.csv",
+      "sha256": "cc748ce069b79878ba65da6198cf59cf0d12cf38849e9cec6ed33e1799081605",
+      "bytes": 1272,
+      "archiveVersionTime": "20250923-1050",
+      "observationTimestamps": [
+        "202509231040"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1050"
+    },
+    {
+      "file": "20250923-1100-latest_10min_wind.csv",
+      "sha256": "a6c3cb155f0ffe81928b26a112a1d1ab232cb5393132dcf746bc70ec3716964f",
+      "bytes": 1278,
+      "archiveVersionTime": "20250923-1100",
+      "observationTimestamps": [
+        "202509231050"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1100"
+    },
+    {
+      "file": "20250923-1810-latest_10min_wind.csv",
+      "sha256": "242dfa734e23dbf9983509abc5d28ed53f494a7c90525ca9e04d0c15f1df8732",
+      "bytes": 1287,
+      "archiveVersionTime": "20250923-1810",
+      "observationTimestamps": [
+        "202509231800"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1810"
+    },
+    {
+      "file": "20250923-1830-latest_10min_wind.csv",
+      "sha256": "071ed67867ca75d8c37a89f385535304b6489f04952cc598a7ec361f6cca0abc",
+      "bytes": 1288,
+      "archiveVersionTime": "20250923-1830",
+      "observationTimestamps": [
+        "202509231820"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1830"
+    },
+    {
+      "file": "20250923-1900-latest_10min_wind.csv",
+      "sha256": "0171493544eea00ee1cf52eb25f41774a22f8e006c6cf717df75e34a6b9e05a1",
+      "bytes": 1282,
+      "archiveVersionTime": "20250923-1900",
+      "observationTimestamps": [
+        "202509231850"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1900"
+    },
+    {
+      "file": "20250923-1910-latest_10min_wind.csv",
+      "sha256": "792d270ccf435d92ec32a36ec77b046c09b9c902394a076570621c87d241fff4",
+      "bytes": 1288,
+      "archiveVersionTime": "20250923-1910",
+      "observationTimestamps": [
+        "202509231900"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1910"
+    },
+    {
+      "file": "20250923-1949-latest_10min_wind.csv",
+      "sha256": "a414fd3d8cea86a4329e3d34911c8a7734ebb0e9d8532669c97b024f679a46ca",
+      "bytes": 1262,
+      "archiveVersionTime": "20250923-1949",
+      "observationTimestamps": [
+        "202509231940"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1949"
+    },
+    {
+      "file": "20250923-1849-latest_10min_wind.csv",
+      "sha256": "27a60806d289d3272cd5560c3e93fdf465c951712d2f03e77fc9cf540e588b90",
+      "bytes": 1286,
+      "archiveVersionTime": "20250923-1849",
+      "observationTimestamps": [
+        "202509231840"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1849"
+    },
+    {
+      "file": "20250923-2010-latest_10min_wind.csv",
+      "sha256": "517041ff9ab57ba8a6893b276dca3ee2f8b2f996b948e781a32f2901ea39edad",
+      "bytes": 1279,
+      "archiveVersionTime": "20250923-2010",
+      "observationTimestamps": [
+        "202509232000"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-2010"
+    },
+    {
+      "file": "20250923-2030-latest_10min_wind.csv",
+      "sha256": "ff2222b828ed866c2aed79d180a4cab92c4b3cbd69f746b70bac21e2d9fff2e9",
+      "bytes": 1283,
+      "archiveVersionTime": "20250923-2030",
+      "observationTimestamps": [
+        "202509232020"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-2030"
+    },
+    {
+      "file": "20250923-2040-latest_10min_wind.csv",
+      "sha256": "92c5c8ded988f8dea5087945d707e99bac448778905a3fe9fffe92424aa0b818",
+      "bytes": 1279,
+      "archiveVersionTime": "20250923-2040",
+      "observationTimestamps": [
+        "202509232030"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-2040"
+    },
+    {
+      "file": "20250923-2050-latest_10min_wind.csv",
+      "sha256": "632565c88e0acda968294ac29a83eca4cfffaf4a6fd86ddfdf56c8b3a03f0afc",
+      "bytes": 1285,
+      "archiveVersionTime": "20250923-2050",
+      "observationTimestamps": [
+        "202509232040"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-2050"
+    },
+    {
+      "file": "20250923-2100-latest_10min_wind.csv",
+      "sha256": "bbd92aeeaf81f4ba1d3d50c7dd28d97dc499dc36b388659cecc9d9be42a5f71f",
+      "bytes": 1281,
+      "archiveVersionTime": "20250923-2100",
+      "observationTimestamps": [
+        "202509232050"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-2100"
+    },
+    {
+      "file": "20250923-2110-latest_10min_wind.csv",
+      "sha256": "f3da7dcd4637926094e50cab9d02ee55dc88bf35218dc663dbcd3066c65b8f1c",
+      "bytes": 1284,
+      "archiveVersionTime": "20250923-2110",
+      "observationTimestamps": [
+        "202509232100"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-2110"
+    },
+    {
+      "file": "20250923-2150-latest_10min_wind.csv",
+      "sha256": "37b03be0eea9b60aacade8c81fe9e122541f31da69a66e973f4875c2e2e9c21f",
+      "bytes": 1284,
+      "archiveVersionTime": "20250923-2150",
+      "observationTimestamps": [
+        "202509232140"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-2150"
+    },
+    {
+      "file": "20250923-2210-latest_10min_wind.csv",
+      "sha256": "7ac219ff2daf4eb8e4d1fac0f730fdb6d6ae7f7e17a7d891ff1aef594f84388e",
+      "bytes": 1287,
+      "archiveVersionTime": "20250923-2210",
+      "observationTimestamps": [
+        "202509232200"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-2210"
+    },
+    {
+      "file": "20250923-2240-latest_10min_wind.csv",
+      "sha256": "af0631300a2fe7e3ac1c169530a4dd1a74f6c051c3cd8e03c1353ad14f2d5a1d",
+      "bytes": 1273,
+      "archiveVersionTime": "20250923-2240",
+      "observationTimestamps": [
+        "202509232230"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-2240"
+    },
+    {
+      "file": "20250923-2250-latest_10min_wind.csv",
+      "sha256": "e26ac356cc91b246ef03182e074be62f9d821c3fa9c260879babc62230465863",
+      "bytes": 1291,
+      "archiveVersionTime": "20250923-2250",
+      "observationTimestamps": [
+        "202509232240"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-2250"
+    },
+    {
+      "file": "20250923-0211-latest_10min_wind.csv",
+      "sha256": "80d9e078c5c6f3a82a8debd05fbc1e9accae031023617c646b79891f6862fca8",
+      "bytes": 1285,
+      "archiveVersionTime": "20250923-0211",
+      "observationTimestamps": [
+        "202509230200"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0211"
+    },
+    {
+      "file": "20250923-0219-latest_10min_wind.csv",
+      "sha256": "f6388d40e5481f46f86ef459fe7016b06c29939c31ac8a15b5e662c630643681",
+      "bytes": 1285,
+      "archiveVersionTime": "20250923-0219",
+      "observationTimestamps": [
+        "202509230210"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0219"
+    },
+    {
+      "file": "20250923-0249-latest_10min_wind.csv",
+      "sha256": "ee4e8ba0082dc57c49c4fcf0efacabb6761ed51ebd6e66755500380446ecd4ab",
+      "bytes": 1256,
+      "archiveVersionTime": "20250923-0249",
+      "observationTimestamps": [
+        "202509230240"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0249"
+    },
+    {
+      "file": "20250923-0911-latest_10min_wind.csv",
+      "sha256": "dab333fac06e5f6f9bc471a4e7a9c0fa84960bddfde1bb22d9a7013e051c9392",
+      "bytes": 1299,
+      "archiveVersionTime": "20250923-0911",
+      "observationTimestamps": [
+        "202509230900"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0911"
+    },
+    {
+      "file": "20250923-0920-latest_10min_wind.csv",
+      "sha256": "a40f4fbdc1b7421ee09300362eba759e938bfd4c87584dc1a75af3da4e3d7037",
+      "bytes": 1293,
+      "archiveVersionTime": "20250923-0920",
+      "observationTimestamps": [
+        "202509230910"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0920"
+    },
+    {
+      "file": "20250923-1019-latest_10min_wind.csv",
+      "sha256": "78815e3b1cc24186886d94b81b16ed0f2b15e83d882cf93428e70b6ba9c85312",
+      "bytes": 1275,
+      "archiveVersionTime": "20250923-1019",
+      "observationTimestamps": [
+        "202509231010"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1019"
+    },
+    {
+      "file": "20250923-1029-latest_10min_wind.csv",
+      "sha256": "372a7e70acf6522da769de064dce99db6db997eacb5878eafe8a9918afac752a",
+      "bytes": 1283,
+      "archiveVersionTime": "20250923-1029",
+      "observationTimestamps": [
+        "202509231020"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1029"
+    },
+    {
+      "file": "20250923-2310-latest_10min_wind.csv",
+      "sha256": "03a81dc1e1a1f56e0e35cf409d1981591512f97708bb3900c1d522286eceea86",
+      "bytes": 1279,
+      "archiveVersionTime": "20250923-2310",
+      "observationTimestamps": [
+        "202509232300"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-2310"
+    },
+    {
+      "file": "20250923-2359-latest_10min_wind.csv",
+      "sha256": "e9029765c876bcdb0dcc19615be987f2c2268295ea0c6677c495f6cab9391dd3",
+      "bytes": 1281,
+      "archiveVersionTime": "20250923-2359",
+      "observationTimestamps": [
+        "202509232350"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-2359"
+    },
+    {
+      "file": "20250924-1020-latest_10min_wind.csv",
+      "sha256": "bf5084c61fe00aa1f15a9844d4d347e8196834c175cf1a556a6ca390e575cd01",
+      "bytes": 1242,
+      "archiveVersionTime": "20250924-1020",
+      "observationTimestamps": [
+        "202509241010"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1020"
+    },
+    {
+      "file": "20250924-0949-latest_10min_wind.csv",
+      "sha256": "8d67449fc33a36e46877fb510ed4b785026e494d6b0c3340b68dbe9d922d24b1",
+      "bytes": 1258,
+      "archiveVersionTime": "20250924-0949",
+      "observationTimestamps": [
+        "202509240940"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0949"
+    },
+    {
+      "file": "20250924-1040-latest_10min_wind.csv",
+      "sha256": "b1a7370bc711de9f48ae8681688bea1f8eefddd61458415e1dae8fe257938b9c",
+      "bytes": 1255,
+      "archiveVersionTime": "20250924-1040",
+      "observationTimestamps": [
+        "202509241030"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1040"
+    },
+    {
+      "file": "20250924-1039-latest_10min_wind.csv",
+      "sha256": "de8d220005cae3525e31216aadd14dbe12e61bbaf35bd6f613a35219626f5e44",
+      "bytes": 1244,
+      "archiveVersionTime": "20250924-1039",
+      "observationTimestamps": [
+        "202509241030"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1039"
+    },
+    {
+      "file": "20250924-1119-latest_10min_wind.csv",
+      "sha256": "feeb0b07f684cff0a9633e0672d4eea87c884273a49259bad435a203f4d303a1",
+      "bytes": 1264,
+      "archiveVersionTime": "20250924-1119",
+      "observationTimestamps": [
+        "202509241110"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1119"
+    },
+    {
+      "file": "20250924-0939-latest_10min_wind.csv",
+      "sha256": "ace4b2fb69ae17813859b08e001bf3a5651f6ac897726239db639c36ed0ff3c6",
+      "bytes": 1252,
+      "archiveVersionTime": "20250924-0939",
+      "observationTimestamps": [
+        "202509240930"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0939"
+    },
+    {
+      "file": "20250924-1139-latest_10min_wind.csv",
+      "sha256": "1fed02b2e47ab5e855123c17d8cd42920e40f98b14bfaba01cc17f2b08be1eae",
+      "bytes": 1276,
+      "archiveVersionTime": "20250924-1139",
+      "observationTimestamps": [
+        "202509241130"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1139"
+    },
+    {
+      "file": "20250924-1239-latest_10min_wind.csv",
+      "sha256": "cf9bcf8353290143af465ab35bdec79b1b7f4232c7c8cac35e088ad7a6905439",
+      "bytes": 1279,
+      "archiveVersionTime": "20250924-1239",
+      "observationTimestamps": [
+        "202509241230"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1239"
+    },
+    {
+      "file": "20250924-1249-latest_10min_wind.csv",
+      "sha256": "e87afdad5af7722e4d269320759a0ba3639b32903a5c8b9cd0fb9446e4e84f74",
+      "bytes": 1255,
+      "archiveVersionTime": "20250924-1249",
+      "observationTimestamps": [
+        "202509241240"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1249"
+    },
+    {
+      "file": "20250924-1310-latest_10min_wind.csv",
+      "sha256": "3ec447db2f2787d3aa69a915bf2c107d88e5bc8437c7ae6354a157981f237ead",
+      "bytes": 1273,
+      "archiveVersionTime": "20250924-1310",
+      "observationTimestamps": [
+        "202509241300"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1310"
+    },
+    {
+      "file": "20250924-1359-latest_10min_wind.csv",
+      "sha256": "85b77dd2bdae414a01069d21da3a4a80b48d9a2c544f770be07c0b8b3996a152",
+      "bytes": 1290,
+      "archiveVersionTime": "20250924-1359",
+      "observationTimestamps": [
+        "202509241350"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1359"
+    },
+    {
+      "file": "20250924-1410-latest_10min_wind.csv",
+      "sha256": "69f591ea4e145e07aade5ec7d1c0f110d170f9c7bbd73f930cb9d553df18dcd8",
+      "bytes": 1290,
+      "archiveVersionTime": "20250924-1410",
+      "observationTimestamps": [
+        "202509241400"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1410"
+    },
+    {
+      "file": "20250923-1310-latest_10min_wind.csv",
+      "sha256": "9b3fa5b78b8c8af1df07df4e2d9784117665e554512ab366ea663bf5991676ab",
+      "bytes": 1291,
+      "archiveVersionTime": "20250923-1310",
+      "observationTimestamps": [
+        "202509231300"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1310"
+    },
+    {
+      "file": "20250923-1429-latest_10min_wind.csv",
+      "sha256": "263a6f62ceaf076410a1ab60719bad39c0132fa688dc532a71f8d85eb8ce8afa",
+      "bytes": 1301,
+      "archiveVersionTime": "20250923-1429",
+      "observationTimestamps": [
+        "202509231420"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1429"
+    },
+    {
+      "file": "20250923-1230-latest_10min_wind.csv",
+      "sha256": "8a93f0ddd229413d25539064e8acb8ce0eb4474a638605eae06ceb060233bcd6",
+      "bytes": 1281,
+      "archiveVersionTime": "20250923-1230",
+      "observationTimestamps": [
+        "202509231220"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1230"
+    },
+    {
+      "file": "20250923-1510-latest_10min_wind.csv",
+      "sha256": "e3d27a3246ed81790a1c81147b1d819d3dfb48e86c620337bc8d060fa679c92a",
+      "bytes": 1283,
+      "archiveVersionTime": "20250923-1510",
+      "observationTimestamps": [
+        "202509231500"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1510"
+    },
+    {
+      "file": "20250923-1339-latest_10min_wind.csv",
+      "sha256": "bc305a5d7f4dcac944bdcd6b69282676e94842c80046c60c8233d2beb0c35262",
+      "bytes": 1289,
+      "archiveVersionTime": "20250923-1339",
+      "observationTimestamps": [
+        "202509231330"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1339"
+    },
+    {
+      "file": "20250923-1520-latest_10min_wind.csv",
+      "sha256": "7028522870b793bd501c430163b335c34d4680e9045feeb28cc5b084d640e2d0",
+      "bytes": 1283,
+      "archiveVersionTime": "20250923-1520",
+      "observationTimestamps": [
+        "202509231510"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1520"
+    },
+    {
+      "file": "20250923-1559-latest_10min_wind.csv",
+      "sha256": "13c582834450933c821b42040fbfcb7df6385dcc025f5ded408d37c8992c4e03",
+      "bytes": 1281,
+      "archiveVersionTime": "20250923-1559",
+      "observationTimestamps": [
+        "202509231550"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1559"
+    },
+    {
+      "file": "20250923-1610-latest_10min_wind.csv",
+      "sha256": "3630e62820e87a30cd09c090dfb75c6ecc2fffdbcdbaf6e2643b4faba8f323b1",
+      "bytes": 1285,
+      "archiveVersionTime": "20250923-1610",
+      "observationTimestamps": [
+        "202509231600"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1610"
+    },
+    {
+      "file": "20250923-1620-latest_10min_wind.csv",
+      "sha256": "30b5ed95b2bed0a898c972827d7be6bdf13815c76ea731680595b2ae9826b952",
+      "bytes": 1287,
+      "archiveVersionTime": "20250923-1620",
+      "observationTimestamps": [
+        "202509231610"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1620"
+    },
+    {
+      "file": "20250923-1629-latest_10min_wind.csv",
+      "sha256": "dec5aa020150844fc81aad9014e5be0bc4034e8ca4b4a45633dd450e22f207cb",
+      "bytes": 1287,
+      "archiveVersionTime": "20250923-1629",
+      "observationTimestamps": [
+        "202509231620"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1629"
+    },
+    {
+      "file": "20250923-0030-latest_10min_wind.csv",
+      "sha256": "2becf888c179ffdb9c8ac87409fda2f79b4831ff2f1a25ea4780218bc7b00fd1",
+      "bytes": 1273,
+      "archiveVersionTime": "20250923-0030",
+      "observationTimestamps": [
+        "202509230020"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0030"
+    },
+    {
+      "file": "20250923-0040-latest_10min_wind.csv",
+      "sha256": "c24d60e3706a829237ecafa91790bdc958d6e0dc7206a3d7a03f2007f306edce",
+      "bytes": 1262,
+      "archiveVersionTime": "20250923-0040",
+      "observationTimestamps": [
+        "202509230030"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0040"
+    },
+    {
+      "file": "20250923-1130-latest_10min_wind.csv",
+      "sha256": "dd57f0701acb6a480846ecfa0edeb2230d74f78092612f443ce483d4f97eada7",
+      "bytes": 1289,
+      "archiveVersionTime": "20250923-1130",
+      "observationTimestamps": [
+        "202509231120"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1130"
+    },
+    {
+      "file": "20250923-1120-latest_10min_wind.csv",
+      "sha256": "94ca28abd650e3a88655f0df1127c5fce981df1dfa9d72c74d97568f71ce446c",
+      "bytes": 1287,
+      "archiveVersionTime": "20250923-1120",
+      "observationTimestamps": [
+        "202509231110"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1120"
+    },
+    {
+      "file": "20250923-1129-latest_10min_wind.csv",
+      "sha256": "57c1964928ff7ce346aa5fdd3572eb02617c361d51b79bb85150872757a0f24e",
+      "bytes": 1287,
+      "archiveVersionTime": "20250923-1129",
+      "observationTimestamps": [
+        "202509231120"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1129"
+    },
+    {
+      "file": "20250923-1210-latest_10min_wind.csv",
+      "sha256": "b5e23931c41b7dfd65ab95b8aeec7ede80f34055fc3d20223f15d38061d486c2",
+      "bytes": 1277,
+      "archiveVersionTime": "20250923-1210",
+      "observationTimestamps": [
+        "202509231200"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1210"
+    },
+    {
+      "file": "20250923-1239-latest_10min_wind.csv",
+      "sha256": "e53fcd3b1ae9252958cf5c50648c9d0c5b418211db12e967631394455c96c858",
+      "bytes": 1281,
+      "archiveVersionTime": "20250923-1239",
+      "observationTimestamps": [
+        "202509231230"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1239"
+    },
+    {
+      "file": "20250923-1320-latest_10min_wind.csv",
+      "sha256": "af5996be7eb04f485493f73deeda9bc6a91307693107654ec4363a4e25215f64",
+      "bytes": 1289,
+      "archiveVersionTime": "20250923-1320",
+      "observationTimestamps": [
+        "202509231310"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1320"
+    },
+    {
+      "file": "20250923-0739-latest_10min_wind.csv",
+      "sha256": "fcfb1756de1c753dc99200a17409b5c8ce9afa0c1530f411e72285cbccacbda8",
+      "bytes": 1256,
+      "archiveVersionTime": "20250923-0739",
+      "observationTimestamps": [
+        "202509230730"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0739"
+    },
+    {
+      "file": "20250923-1410-latest_10min_wind.csv",
+      "sha256": "ef32933f18e1a2cc9448bef42e99aec063d89d72bca38bf6077b94fe675a7dd8",
+      "bytes": 1293,
+      "archiveVersionTime": "20250923-1410",
+      "observationTimestamps": [
+        "202509231400"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1410"
+    },
+    {
+      "file": "20250923-1250-latest_10min_wind.csv",
+      "sha256": "d2b61e989d742920529dc121fa5386085e9c5eb2cc39d8bc4d90f54a1c470a7f",
+      "bytes": 1283,
+      "archiveVersionTime": "20250923-1250",
+      "observationTimestamps": [
+        "202509231240"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1250"
+    },
+    {
+      "file": "20250923-0800-latest_10min_wind.csv",
+      "sha256": "4108ac04bd6a6c24eba739fe16d51b98113bd1d76ac59ea74a6f6042ad41f2bb",
+      "bytes": 1286,
+      "archiveVersionTime": "20250923-0800",
+      "observationTimestamps": [
+        "202509230750"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0800"
+    },
+    {
+      "file": "20250923-1359-latest_10min_wind.csv",
+      "sha256": "6e39e506904ab816797ab71baea7d5dde744340311a15563c900356f1a9302c9",
+      "bytes": 1294,
+      "archiveVersionTime": "20250923-1359",
+      "observationTimestamps": [
+        "202509231350"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1359"
+    },
+    {
+      "file": "20250923-1350-latest_10min_wind.csv",
+      "sha256": "c9cb693cb975fdae65fef31f8ab1a8da376f0a2408b4523e2fc79ab1db11a843",
+      "bytes": 1292,
+      "archiveVersionTime": "20250923-1350",
+      "observationTimestamps": [
+        "202509231340"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1350"
+    },
+    {
+      "file": "20250923-1430-latest_10min_wind.csv",
+      "sha256": "23348d4904bd7457c4afaf9b6eb7a1188ce1f865cfd15b044a43cac43d78405b",
+      "bytes": 1290,
+      "archiveVersionTime": "20250923-1430",
+      "observationTimestamps": [
+        "202509231420"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1430"
+    },
+    {
+      "file": "20250923-1700-latest_10min_wind.csv",
+      "sha256": "66dd85087765471663d4090423c78389428efced2cd0c7c83608846b7f01fb91",
+      "bytes": 1278,
+      "archiveVersionTime": "20250923-1700",
+      "observationTimestamps": [
+        "202509231650"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1700"
+    },
+    {
+      "file": "20250923-1511-latest_10min_wind.csv",
+      "sha256": "f1ca7f28a8470cb2a51ce7bf4047398d8b5a264b202e5f9e2803a3636bdaf159",
+      "bytes": 1276,
+      "archiveVersionTime": "20250923-1511",
+      "observationTimestamps": [
+        "202509231500"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1511"
+    },
+    {
+      "file": "20250923-1449-latest_10min_wind.csv",
+      "sha256": "b149240397793828a7530b46177221e00d978763ee9203a19770a39a5e352118",
+      "bytes": 1283,
+      "archiveVersionTime": "20250923-1449",
+      "observationTimestamps": [
+        "202509231440"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1449"
+    },
+    {
+      "file": "20250923-1729-latest_10min_wind.csv",
+      "sha256": "c2cf635c0d91022a3275a2133451fe3e2e77b35686673d7a9b9a0e5f21191a1e",
+      "bytes": 1295,
+      "archiveVersionTime": "20250923-1729",
+      "observationTimestamps": [
+        "202509231720"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1729"
+    },
+    {
+      "file": "20250924-0519-latest_10min_wind.csv",
+      "sha256": "07fdcdcc1720f5d0afbfa389a32389da094b301edc9bf8a77b715017556a6f8b",
+      "bytes": 1337,
+      "archiveVersionTime": "20250924-0519",
+      "observationTimestamps": [
+        "202509240510"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0519"
+    },
+    {
+      "file": "20250924-0540-latest_10min_wind.csv",
+      "sha256": "726e05613285db176f09859cce8b9f513bc06f32a55f2c9340f3776bf19005ac",
+      "bytes": 1322,
+      "archiveVersionTime": "20250924-0540",
+      "observationTimestamps": [
+        "202509240530"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0540"
+    },
+    {
+      "file": "20250923-1639-latest_10min_wind.csv",
+      "sha256": "46430e9f7d706f0e4d05c071208494dafdf727f881d1e1cf758285379e31bc4b",
+      "bytes": 1282,
+      "archiveVersionTime": "20250923-1639",
+      "observationTimestamps": [
+        "202509231630"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1639"
+    },
+    {
+      "file": "20250924-0450-latest_10min_wind.csv",
+      "sha256": "f0e39f509b67e8fdee44dd8c1ac9a53ac6f83a4d27f2fb4cc38505863459cf11",
+      "bytes": 1337,
+      "archiveVersionTime": "20250924-0450",
+      "observationTimestamps": [
+        "202509240440"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0450"
+    },
+    {
+      "file": "20250924-0510-latest_10min_wind.csv",
+      "sha256": "9f812f9bbfef935f78f4231dd4c1db974253ae127d4e717a9f305f7f3d1b0c97",
+      "bytes": 1334,
+      "archiveVersionTime": "20250924-0510",
+      "observationTimestamps": [
+        "202509240500"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0510"
+    },
+    {
+      "file": "20250924-0610-latest_10min_wind.csv",
+      "sha256": "6716551d7b0f326b635506ac52b6082909ff30da26be551cb7cd50c16c7a120d",
+      "bytes": 1327,
+      "archiveVersionTime": "20250924-0610",
+      "observationTimestamps": [
+        "202509240600"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0610"
+    },
+    {
+      "file": "20250924-0530-latest_10min_wind.csv",
+      "sha256": "e31e7623d3bfd1b8f6336a3be6a103b3128b320f2fc97235c1a1db62437f9d8a",
+      "bytes": 1327,
+      "archiveVersionTime": "20250924-0530",
+      "observationTimestamps": [
+        "202509240520"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0530"
+    },
+    {
+      "file": "20250924-0629-latest_10min_wind.csv",
+      "sha256": "eeb54abacf825e85b26c5731a9c2a0c162728f19b5ff50444a59a7db0b2bfeb5",
+      "bytes": 1337,
+      "archiveVersionTime": "20250924-0629",
+      "observationTimestamps": [
+        "202509240620"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0629"
+    },
+    {
+      "file": "20250924-0429-latest_10min_wind.csv",
+      "sha256": "06294ef4b6dab0cbbe0e8e9a994e6e9fdfd096f81fc4e4640ac3f690ac6ed8be",
+      "bytes": 1340,
+      "archiveVersionTime": "20250924-0429",
+      "observationTimestamps": [
+        "202509240420"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0429"
+    },
+    {
+      "file": "20250924-0650-latest_10min_wind.csv",
+      "sha256": "a646efe0828aa22511373449934fb4485ff988839903fe16b883cd8c02115423",
+      "bytes": 1312,
+      "archiveVersionTime": "20250924-0650",
+      "observationTimestamps": [
+        "202509240640"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0650"
+    },
+    {
+      "file": "20250924-0430-latest_10min_wind.csv",
+      "sha256": "4f1c0f6c06f02bcd1482eb13ff08f39a4385447b6f570f70d6047baae9f39612",
+      "bytes": 1332,
+      "archiveVersionTime": "20250924-0430",
+      "observationTimestamps": [
+        "202509240420"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0430"
+    },
+    {
+      "file": "20250924-0439-latest_10min_wind.csv",
+      "sha256": "8a955f508ce2c6a71f33571a39a4f43d26827a4c23563767b990ad370a74510c",
+      "bytes": 1332,
+      "archiveVersionTime": "20250924-0439",
+      "observationTimestamps": [
+        "202509240430"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0439"
+    },
+    {
+      "file": "20250924-0440-latest_10min_wind.csv",
+      "sha256": "8f4e0a57b638e19a308ad62a759b6037fb92923431056abfbb3c176caa997202",
+      "bytes": 1341,
+      "archiveVersionTime": "20250924-0440",
+      "observationTimestamps": [
+        "202509240430"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0440"
+    },
+    {
+      "file": "20250924-0539-latest_10min_wind.csv",
+      "sha256": "24466aea1321abd3086f4b791d3f06632bd91fc7b052d52e0854a608991a6cd2",
+      "bytes": 1326,
+      "archiveVersionTime": "20250924-0539",
+      "observationTimestamps": [
+        "202509240530"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0539"
+    },
+    {
+      "file": "20250924-0550-latest_10min_wind.csv",
+      "sha256": "c055a604da721c73af3d9f67cbbb13ed9897c712a7d6d5d472b121a9c1f50712",
+      "bytes": 1327,
+      "archiveVersionTime": "20250924-0550",
+      "observationTimestamps": [
+        "202509240540"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0550"
+    },
+    {
+      "file": "20250924-0730-latest_10min_wind.csv",
+      "sha256": "ad9dcaae6abbd5617eff34715d5b623d31a60544080ce8c7f3484cf6a1fb2242",
+      "bytes": 1300,
+      "archiveVersionTime": "20250924-0730",
+      "observationTimestamps": [
+        "202509240720"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0730"
+    },
+    {
+      "file": "20250924-0810-latest_10min_wind.csv",
+      "sha256": "3718d6f9c10ec76a71e40c164b475aa9931ab438d1271416d4d8e59f5c66908e",
+      "bytes": 1276,
+      "archiveVersionTime": "20250924-0810",
+      "observationTimestamps": [
+        "202509240800"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0810"
+    },
+    {
+      "file": "20250924-0640-latest_10min_wind.csv",
+      "sha256": "45d363e248c543d2b799031bb59b22a0d4075aa9cf46d4bbb7b4fcd256273484",
+      "bytes": 1323,
+      "archiveVersionTime": "20250924-0640",
+      "observationTimestamps": [
+        "202509240630"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0640"
+    },
+    {
+      "file": "20250924-0819-latest_10min_wind.csv",
+      "sha256": "e6aeea24be1c456b199bca2911ea1125afad2849970f2d77c4089a440cf93421",
+      "bytes": 1287,
+      "archiveVersionTime": "20250924-0819",
+      "observationTimestamps": [
+        "202509240810"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0819"
+    },
+    {
+      "file": "20250924-0710-latest_10min_wind.csv",
+      "sha256": "680237eaa488023279eb444c0e04f880d7f51dcd0e7377264c049c2669a967c9",
+      "bytes": 1308,
+      "archiveVersionTime": "20250924-0710",
+      "observationTimestamps": [
+        "202509240700"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0710"
+    },
+    {
+      "file": "20250924-0750-latest_10min_wind.csv",
+      "sha256": "93e42f7fdd227772ff27c85c333c0fba55a6265ea86faa02ed23223ef5b56997",
+      "bytes": 1295,
+      "archiveVersionTime": "20250924-0750",
+      "observationTimestamps": [
+        "202509240740"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0750"
+    },
+    {
+      "file": "20250924-0910-latest_10min_wind.csv",
+      "sha256": "c195433509d418823310e442800b1d1631d164cf125094125e8dd1ce7b1ede9f",
+      "bytes": 1250,
+      "archiveVersionTime": "20250924-0910",
+      "observationTimestamps": [
+        "202509240900"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0910"
+    },
+    {
+      "file": "20250924-0829-latest_10min_wind.csv",
+      "sha256": "68cd24de897784a5b37ec38c396cd97f2fb3be0b8e9749ec8560582a534c96a6",
+      "bytes": 1264,
+      "archiveVersionTime": "20250924-0829",
+      "observationTimestamps": [
+        "202509240820"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0829"
+    },
+    {
+      "file": "20250924-1459-latest_10min_wind.csv",
+      "sha256": "165206b37acb27a67a7a58c9d0b9738aa3c8ea49fe719c28ea5e88cc9d95021e",
+      "bytes": 1311,
+      "archiveVersionTime": "20250924-1459",
+      "observationTimestamps": [
+        "202509241450"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1459"
+    },
+    {
+      "file": "20250924-0919-latest_10min_wind.csv",
+      "sha256": "83b1d17eabb549a3ec739bd23966893823b5d10dcf1e728c64aea21e3249c481",
+      "bytes": 1247,
+      "archiveVersionTime": "20250924-0919",
+      "observationTimestamps": [
+        "202509240910"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0919"
+    },
+    {
+      "file": "20250924-0850-latest_10min_wind.csv",
+      "sha256": "04bf9ca026d264143dc065850574406ce407d9885a93064dd6344142e094437a",
+      "bytes": 1258,
+      "archiveVersionTime": "20250924-0850",
+      "observationTimestamps": [
+        "202509240840"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0850"
+    },
+    {
+      "file": "20250924-0839-latest_10min_wind.csv",
+      "sha256": "5c0913eb2927acc7d8ad7881153c8df8fefcea63757c4cd2335d8f3cbb3dab45",
+      "bytes": 1264,
+      "archiveVersionTime": "20250924-0839",
+      "observationTimestamps": [
+        "202509240830"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0839"
+    },
+    {
+      "file": "20250924-0930-latest_10min_wind.csv",
+      "sha256": "3998dede58123d57a6e4b881622110974e796ec48089c67f2f779addf7e5de78",
+      "bytes": 1264,
+      "archiveVersionTime": "20250924-0930",
+      "observationTimestamps": [
+        "202509240920"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0930"
+    },
+    {
+      "file": "20250924-1010-latest_10min_wind.csv",
+      "sha256": "7f577e21458e63448b230548512d6b8579e3c3b032ccd44102b3b07320afce27",
+      "bytes": 1260,
+      "archiveVersionTime": "20250924-1010",
+      "observationTimestamps": [
+        "202509241000"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1010"
+    },
+    {
+      "file": "20250924-1610-latest_10min_wind.csv",
+      "sha256": "14b5075da630b6e561061e41ddc1ec84811258888fdd62149777f7e1f53bf722",
+      "bytes": 1312,
+      "archiveVersionTime": "20250924-1610",
+      "observationTimestamps": [
+        "202509241600"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1610"
+    },
+    {
+      "file": "20250924-1630-latest_10min_wind.csv",
+      "sha256": "f5e5278b720d569d99218687b843311997f1e3524e858ef6b5c91c3f111b1668",
+      "bytes": 1318,
+      "archiveVersionTime": "20250924-1630",
+      "observationTimestamps": [
+        "202509241620"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1630"
+    },
+    {
+      "file": "20250924-1639-latest_10min_wind.csv",
+      "sha256": "e70e2471ab0227cf57fda84c5578c019233a31cb53705eede31e5769e827dd70",
+      "bytes": 1317,
+      "archiveVersionTime": "20250924-1639",
+      "observationTimestamps": [
+        "202509241630"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1639"
+    },
+    {
+      "file": "20250924-1649-latest_10min_wind.csv",
+      "sha256": "e1cf6975837c375fb752f3670194fe6395f69ed237bd39b579074948e60db50a",
+      "bytes": 1317,
+      "archiveVersionTime": "20250924-1649",
+      "observationTimestamps": [
+        "202509241640"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1649"
+    },
+    {
+      "file": "20250924-1710-latest_10min_wind.csv",
+      "sha256": "ec0779a9406f3104b5ee6dbc4c962ef54541defde102299b57a2602c65b66156",
+      "bytes": 1323,
+      "archiveVersionTime": "20250924-1710",
+      "observationTimestamps": [
+        "202509241700"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1710"
+    },
+    {
+      "file": "20250924-1719-latest_10min_wind.csv",
+      "sha256": "8bd5a6c71c10e2064fede90f9ba441679fd888855b252ce81867240de142eee8",
+      "bytes": 1309,
+      "archiveVersionTime": "20250924-1719",
+      "observationTimestamps": [
+        "202509241710"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1719"
+    },
+    {
+      "file": "20250924-1750-latest_10min_wind.csv",
+      "sha256": "7622e6475b9bbf9eea806ebda8609eba4b99bfa2f5c63ecba122d4e38812e1fc",
+      "bytes": 1314,
+      "archiveVersionTime": "20250924-1750",
+      "observationTimestamps": [
+        "202509241740"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1750"
+    },
+    {
+      "file": "20250924-1849-latest_10min_wind.csv",
+      "sha256": "ff79c9b5829e1f12f062a37a11ebeebfbbb691ac1c41ad7f4a13dc007dbe90b1",
+      "bytes": 1266,
+      "archiveVersionTime": "20250924-1849",
+      "observationTimestamps": [
+        "202509241840"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1849"
+    },
+    {
+      "file": "20250923-0000-latest_10min_wind.csv",
+      "sha256": "0a8bc5716777887a890e36e96f433344c97646d8228eca30727537f93d76eddf",
+      "bytes": 1263,
+      "archiveVersionTime": "20250923-0000",
+      "observationTimestamps": [
+        "202509222350"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0000"
+    },
+    {
+      "file": "20250923-0010-latest_10min_wind.csv",
+      "sha256": "ee2390f50c3bd0fb496e599c2714848d281bf2e900309c61f3b6e42fc0949d61",
+      "bytes": 1264,
+      "archiveVersionTime": "20250923-0010",
+      "observationTimestamps": [
+        "202509230000"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0010"
+    },
+    {
+      "file": "20250923-0119-latest_10min_wind.csv",
+      "sha256": "9c6a2486c66e7ab510e702114260c9cdfe26c2f4d345bc95b15efe9cfd05f7da",
+      "bytes": 1271,
+      "archiveVersionTime": "20250923-0119",
+      "observationTimestamps": [
+        "202509230110"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0119"
+    },
+    {
+      "file": "20250923-0100-latest_10min_wind.csv",
+      "sha256": "6fd37e23604c142384368d0046a03cae12925093c17d9d67279428e61806e70e",
+      "bytes": 1266,
+      "archiveVersionTime": "20250923-0100",
+      "observationTimestamps": [
+        "202509230050"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0100"
+    },
+    {
+      "file": "20250923-0150-latest_10min_wind.csv",
+      "sha256": "00ced0209de5c7d20416ee666f9d7ed38dd74423a93dc750b722a6f1392de9d8",
+      "bytes": 1272,
+      "archiveVersionTime": "20250923-0150",
+      "observationTimestamps": [
+        "202509230140"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0150"
+    },
+    {
+      "file": "20250923-0149-latest_10min_wind.csv",
+      "sha256": "8be94add43a50f2d28d412d6ee7730dc0babf2c3e48e8f6e24264ed850158403",
+      "bytes": 1266,
+      "archiveVersionTime": "20250923-0149",
+      "observationTimestamps": [
+        "202509230140"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0149"
+    },
+    {
+      "file": "20250923-0229-latest_10min_wind.csv",
+      "sha256": "94dd13fdb5b2f4fd3af2194b46625a1c202f208fbe74eba9779766241dfa4e41",
+      "bytes": 1263,
+      "archiveVersionTime": "20250923-0229",
+      "observationTimestamps": [
+        "202509230220"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0229"
+    },
+    {
+      "file": "20250923-0329-latest_10min_wind.csv",
+      "sha256": "0197d13956c3c4ba28a0bb807a16cf4638b5447e6a5fb01e3003de977b56b5a9",
+      "bytes": 1259,
+      "archiveVersionTime": "20250923-0329",
+      "observationTimestamps": [
+        "202509230320"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0329"
+    },
+    {
+      "file": "20250923-0320-latest_10min_wind.csv",
+      "sha256": "28340613e44b0e35c9d6b1c3fa9b2d2f9a5ad5c50ed268c7018b38d91aa61532",
+      "bytes": 1259,
+      "archiveVersionTime": "20250923-0320",
+      "observationTimestamps": [
+        "202509230310"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0320"
+    },
+    {
+      "file": "20250923-0339-latest_10min_wind.csv",
+      "sha256": "7e8a264c2b8d7871d363c0ffa3b222e1888fc05f09b11c0849e5de41983c26c0",
+      "bytes": 1264,
+      "archiveVersionTime": "20250923-0339",
+      "observationTimestamps": [
+        "202509230330"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0339"
+    },
+    {
+      "file": "20250923-0420-latest_10min_wind.csv",
+      "sha256": "b9d21413fe21ae52db75750f732c4f47a94f3c7b651cff3181b2c64c2a8084a7",
+      "bytes": 1280,
+      "archiveVersionTime": "20250923-0420",
+      "observationTimestamps": [
+        "202509230410"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0420"
+    },
+    {
+      "file": "20250923-0430-latest_10min_wind.csv",
+      "sha256": "6142252f09dba8cc4f61d7e1be1c2b2603eec7b2a300b20f201f85526efab7ed",
+      "bytes": 1268,
+      "archiveVersionTime": "20250923-0430",
+      "observationTimestamps": [
+        "202509230420"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0430"
+    },
+    {
+      "file": "20250923-0529-latest_10min_wind.csv",
+      "sha256": "aeeb06586774589857c4607141a548d0a1489b52a9022b412f568fb4bc339cfe",
+      "bytes": 1278,
+      "archiveVersionTime": "20250923-0529",
+      "observationTimestamps": [
+        "202509230520"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0529"
+    },
+    {
+      "file": "20250923-0610-latest_10min_wind.csv",
+      "sha256": "0bb8f96b27a585eb197065f5a446b0e6fa16a61102fee7c06c8b893806860fd4",
+      "bytes": 1268,
+      "archiveVersionTime": "20250923-0610",
+      "observationTimestamps": [
+        "202509230600"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0610"
+    },
+    {
+      "file": "20250923-0630-latest_10min_wind.csv",
+      "sha256": "3c44430d81fc9fbad9116f2eb65c6230c54ac21eb9b969cd62ea2317a0778cad",
+      "bytes": 1261,
+      "archiveVersionTime": "20250923-0630",
+      "observationTimestamps": [
+        "202509230620"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0630"
+    },
+    {
+      "file": "20250923-0619-latest_10min_wind.csv",
+      "sha256": "fb18bcfaedacc8345197c400940cdbb587a1702ec501aee656faf0fdc686edfb",
+      "bytes": 1262,
+      "archiveVersionTime": "20250923-0619",
+      "observationTimestamps": [
+        "202509230610"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0619"
+    },
+    {
+      "file": "20250923-0640-latest_10min_wind.csv",
+      "sha256": "522676acf5b2f35f8a2f0f1fa1d5403672a72449a06d49ae8419a7698135b744",
+      "bytes": 1261,
+      "archiveVersionTime": "20250923-0640",
+      "observationTimestamps": [
+        "202509230630"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0640"
+    },
+    {
+      "file": "20250923-0759-latest_10min_wind.csv",
+      "sha256": "bfc3f67b20b184586aeeb7fabc5e41e076ceb49e172d5bfbb7b0d250a8fe00b0",
+      "bytes": 1272,
+      "archiveVersionTime": "20250923-0759",
+      "observationTimestamps": [
+        "202509230750"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0759"
+    },
+    {
+      "file": "20250923-0730-latest_10min_wind.csv",
+      "sha256": "d693354ae8cb4428b5428e85ad6eac5cefe666e331913f1d09179000c7cbc32c",
+      "bytes": 1256,
+      "archiveVersionTime": "20250923-0730",
+      "observationTimestamps": [
+        "202509230720"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0730"
+    },
+    {
+      "file": "20250923-0750-latest_10min_wind.csv",
+      "sha256": "e3bcdc0d125352a95c5494c66db0b4595f447d03bf70fd346a364d2221528cb3",
+      "bytes": 1272,
+      "archiveVersionTime": "20250923-0750",
+      "observationTimestamps": [
+        "202509230740"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0750"
+    },
+    {
+      "file": "20250923-0810-latest_10min_wind.csv",
+      "sha256": "a24ef3a246c4bb9c23b2f94f19560a73e3ebed244592f7c7ffe3007683e28ef7",
+      "bytes": 1274,
+      "archiveVersionTime": "20250923-0810",
+      "observationTimestamps": [
+        "202509230800"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0810"
+    },
+    {
+      "file": "20250923-0949-latest_10min_wind.csv",
+      "sha256": "5748b090467ce3f73420467873b48cd9fa95485f3f67d469edcb964d7bdd40be",
+      "bytes": 1290,
+      "archiveVersionTime": "20250923-0949",
+      "observationTimestamps": [
+        "202509230940"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-0949"
+    },
+    {
+      "file": "20250923-1040-latest_10min_wind.csv",
+      "sha256": "2efc5d626d536d2ce987b7d4046089eb6684801a354dadef669fd55b183c5a64",
+      "bytes": 1285,
+      "archiveVersionTime": "20250923-1040",
+      "observationTimestamps": [
+        "202509231030"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1040"
+    },
+    {
+      "file": "20250923-1110-latest_10min_wind.csv",
+      "sha256": "4d3243a47d46d812e069aa1e4449921a28b9271a02051ad2e6622d7261689b3e",
+      "bytes": 1280,
+      "archiveVersionTime": "20250923-1110",
+      "observationTimestamps": [
+        "202509231100"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1110"
+    },
+    {
+      "file": "20250923-1150-latest_10min_wind.csv",
+      "sha256": "2923b943f616c4fc6463b3d58f6168a3369396b5bf554c137d574f5ef462b45b",
+      "bytes": 1289,
+      "archiveVersionTime": "20250923-1150",
+      "observationTimestamps": [
+        "202509231140"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1150"
+    },
+    {
+      "file": "20250923-1200-latest_10min_wind.csv",
+      "sha256": "a187271463de58eb74ac761689b0308027b8932cc5d97dafd3a61ebaba542635",
+      "bytes": 1288,
+      "archiveVersionTime": "20250923-1200",
+      "observationTimestamps": [
+        "202509231150"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1200"
+    },
+    {
+      "file": "20250923-1249-latest_10min_wind.csv",
+      "sha256": "3c617106c6850610008ba8186818a061d9b294d3724b282ec8f58846cf2e6c72",
+      "bytes": 1285,
+      "archiveVersionTime": "20250923-1249",
+      "observationTimestamps": [
+        "202509231240"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1249"
+    },
+    {
+      "file": "20250923-1319-latest_10min_wind.csv",
+      "sha256": "4db5849dbb58b56756c31340c58aafa010c4b7f49b87c27edc37c8fd8961f2c6",
+      "bytes": 1291,
+      "archiveVersionTime": "20250923-1319",
+      "observationTimestamps": [
+        "202509231310"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1319"
+    },
+    {
+      "file": "20250923-1329-latest_10min_wind.csv",
+      "sha256": "c0d43c2eff1a41c8334a00d011fc8d976a0a835dffa5a45125518d0be9058370",
+      "bytes": 1282,
+      "archiveVersionTime": "20250923-1329",
+      "observationTimestamps": [
+        "202509231320"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1329"
+    },
+    {
+      "file": "20250923-1420-latest_10min_wind.csv",
+      "sha256": "b2a81f042cf3881e70eca25f90da1faa1ed9a5121201b1e16956d50ca36fdb64",
+      "bytes": 1301,
+      "archiveVersionTime": "20250923-1420",
+      "observationTimestamps": [
+        "202509231410"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1420"
+    },
+    {
+      "file": "20250923-1439-latest_10min_wind.csv",
+      "sha256": "35e4aa693854a0f45da712c67e87ef1e83d0be9c99599b3ef332248b8b1a8592",
+      "bytes": 1283,
+      "archiveVersionTime": "20250923-1439",
+      "observationTimestamps": [
+        "202509231430"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1439"
+    },
+    {
+      "file": "20250923-1259-latest_10min_wind.csv",
+      "sha256": "e1afc9c0dfb95f09bf52db968917269d73714b21d9ed2ce4d8af35006b28bd33",
+      "bytes": 1285,
+      "archiveVersionTime": "20250923-1259",
+      "observationTimestamps": [
+        "202509231250"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1259"
+    },
+    {
+      "file": "20250923-1450-latest_10min_wind.csv",
+      "sha256": "94803d42f87fd12f5dfdb87e3434c5294b59d31dc780b9323f51d8f867d6b7a4",
+      "bytes": 1279,
+      "archiveVersionTime": "20250923-1450",
+      "observationTimestamps": [
+        "202509231440"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1450"
+    },
+    {
+      "file": "20250923-1459-latest_10min_wind.csv",
+      "sha256": "35ee6f0d4f94f452148276b3a4264ce3c8ec98af303ee99e0a0231cffd12750a",
+      "bytes": 1283,
+      "archiveVersionTime": "20250923-1459",
+      "observationTimestamps": [
+        "202509231450"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1459"
+    },
+    {
+      "file": "20250923-1530-latest_10min_wind.csv",
+      "sha256": "81e313d9a4289980a110f89ff1017697aca37f3800bb9359e0a12dc8a02dadc3",
+      "bytes": 1285,
+      "archiveVersionTime": "20250923-1530",
+      "observationTimestamps": [
+        "202509231520"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1530"
+    },
+    {
+      "file": "20250923-1539-latest_10min_wind.csv",
+      "sha256": "ae91fccb3c2aa4d38cfdf6ed55ab3d5a3e93072381b907b5294bcf016ecca8a1",
+      "bytes": 1285,
+      "archiveVersionTime": "20250923-1539",
+      "observationTimestamps": [
+        "202509231530"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1539"
+    },
+    {
+      "file": "20250923-1549-latest_10min_wind.csv",
+      "sha256": "9570ca94853c47001beb0d067546234d1434428f53d75293d7a17fe137f7cfde",
+      "bytes": 1285,
+      "archiveVersionTime": "20250923-1549",
+      "observationTimestamps": [
+        "202509231540"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1549"
+    },
+    {
+      "file": "20250923-1630-latest_10min_wind.csv",
+      "sha256": "e7edc5aedef5ed5906b8b7bb7db0070173f3512f6c3e183ec6e08640032e2368",
+      "bytes": 1291,
+      "archiveVersionTime": "20250923-1630",
+      "observationTimestamps": [
+        "202509231620"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1630"
+    },
+    {
+      "file": "20250923-1649-latest_10min_wind.csv",
+      "sha256": "2f827d39c78e16251f2ad51a34b910677efd7523aa2d35bec78d832d1d6da4ae",
+      "bytes": 1287,
+      "archiveVersionTime": "20250923-1649",
+      "observationTimestamps": [
+        "202509231640"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1649"
+    },
+    {
+      "file": "20250923-2130-latest_10min_wind.csv",
+      "sha256": "da72675e2213e27dacae42ce249ccdfbb9fc8ab8bca8fd0aae66d6e7705742e0",
+      "bytes": 1289,
+      "archiveVersionTime": "20250923-2130",
+      "observationTimestamps": [
+        "202509232120"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-2130"
+    },
+    {
+      "file": "20250923-1710-latest_10min_wind.csv",
+      "sha256": "665b34da150124a6b67f2d2582e0bb3dc31229000bdf064fe50c10e516708348",
+      "bytes": 1285,
+      "archiveVersionTime": "20250923-1710",
+      "observationTimestamps": [
+        "202509231700"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1710"
+    },
+    {
+      "file": "20250923-1719-latest_10min_wind.csv",
+      "sha256": "da530b2a1c832ea8e245edec15daf937088620505f367179ce365660efd0448d",
+      "bytes": 1284,
+      "archiveVersionTime": "20250923-1719",
+      "observationTimestamps": [
+        "202509231710"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1719"
+    },
+    {
+      "file": "20250923-1940-latest_10min_wind.csv",
+      "sha256": "a7ff19ef26014b18f5139930983eb5349dd4a7b8663978ab7d309425d7f6ae33",
+      "bytes": 1279,
+      "archiveVersionTime": "20250923-1940",
+      "observationTimestamps": [
+        "202509231930"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1940"
+    },
+    {
+      "file": "20250923-2120-latest_10min_wind.csv",
+      "sha256": "4a731d369c9ab42db8a57feebc7eba17daf22acc26a7644397e4ae3a9f70812f",
+      "bytes": 1284,
+      "archiveVersionTime": "20250923-2120",
+      "observationTimestamps": [
+        "202509232110"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-2120"
+    },
+    {
+      "file": "20250923-2320-latest_10min_wind.csv",
+      "sha256": "7f3c57edb68549ba64ac6f31e6fe18df9acdf1e42931ca4939887b0d6ed0c2f1",
+      "bytes": 1280,
+      "archiveVersionTime": "20250923-2320",
+      "observationTimestamps": [
+        "202509232310"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-2320"
+    },
+    {
+      "file": "20250923-2339-latest_10min_wind.csv",
+      "sha256": "8544b0694c74b5deb4dd7fc056f60f8543e92fc48e8cb627f46e7a597d5e5faf",
+      "bytes": 1272,
+      "archiveVersionTime": "20250923-2339",
+      "observationTimestamps": [
+        "202509232330"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-2339"
+    },
+    {
+      "file": "20250923-2349-latest_10min_wind.csv",
+      "sha256": "e2c6eb28c33520ecc29f2b9f781d7306cef26b6e358b83c53d536dcdc0d3faa7",
+      "bytes": 1279,
+      "archiveVersionTime": "20250923-2349",
+      "observationTimestamps": [
+        "202509232340"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-2349"
+    },
+    {
+      "file": "20250923-1739-latest_10min_wind.csv",
+      "sha256": "72f402f82fcb18b88bd8ab36f20f6627bd770309a77f9504fc4e3d64fc89a8df",
+      "bytes": 1282,
+      "archiveVersionTime": "20250923-1739",
+      "observationTimestamps": [
+        "202509231730"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1739"
+    },
+    {
+      "file": "20250923-1919-latest_10min_wind.csv",
+      "sha256": "1a7f3939fcf62d2c1261077c5e86dbd52c9b4e6c39b448b95f150c4571815521",
+      "bytes": 1288,
+      "archiveVersionTime": "20250923-1919",
+      "observationTimestamps": [
+        "202509231910"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-1919"
+    },
+    {
+      "file": "20250923-2159-latest_10min_wind.csv",
+      "sha256": "036cf88d332f20d970f8985d07a63c0300b3d2ebd9ba24ee0111e43899d44e46",
+      "bytes": 1287,
+      "archiveVersionTime": "20250923-2159",
+      "observationTimestamps": [
+        "202509232150"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-2159"
+    },
+    {
+      "file": "20250923-2230-latest_10min_wind.csv",
+      "sha256": "0c89e7d12f7a2984e0dde8a0b275ca8825ad200a14445c8538c9196b7789e6b1",
+      "bytes": 1268,
+      "archiveVersionTime": "20250923-2230",
+      "observationTimestamps": [
+        "202509232220"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-2230"
+    },
+    {
+      "file": "20250923-2239-latest_10min_wind.csv",
+      "sha256": "48535aaafcf3bf313398cd1ad3fde84610213614b644488993080d1487577217",
+      "bytes": 1268,
+      "archiveVersionTime": "20250923-2239",
+      "observationTimestamps": [
+        "202509232230"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250923-2239"
+    },
+    {
+      "file": "20250924-0059-latest_10min_wind.csv",
+      "sha256": "79164d683af614be48c4fe1a3a3a2ae3e4955c918da40575a39bc384ed1eaa0a",
+      "bytes": 1278,
+      "archiveVersionTime": "20250924-0059",
+      "observationTimestamps": [
+        "202509240050"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0059"
+    },
+    {
+      "file": "20250924-0239-latest_10min_wind.csv",
+      "sha256": "c1482cbf50df215c6021a123432887408dffcb955de5a3c4607bc7482856eb23",
+      "bytes": 1317,
+      "archiveVersionTime": "20250924-0239",
+      "observationTimestamps": [
+        "202509240230"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0239"
+    },
+    {
+      "file": "20250924-0249-latest_10min_wind.csv",
+      "sha256": "e40b0ddb758cde03609d818daa64abb012fc62337872bd4ef5979e64bd169257",
+      "bytes": 1325,
+      "archiveVersionTime": "20250924-0249",
+      "observationTimestamps": [
+        "202509240240"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0249"
+    },
+    {
+      "file": "20250924-0310-latest_10min_wind.csv",
+      "sha256": "34a73f11a22c9a74c1c79ad5fac673b0eff3c427ac6335f1e532b6c605122afa",
+      "bytes": 1335,
+      "archiveVersionTime": "20250924-0310",
+      "observationTimestamps": [
+        "202509240300"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0310"
+    },
+    {
+      "file": "20250924-0120-latest_10min_wind.csv",
+      "sha256": "f6ae1a6fc15f2cad3f8bf04d7a0f7bcdb9c74cfa6b453fca0b66b25a787226a4",
+      "bytes": 1282,
+      "archiveVersionTime": "20250924-0120",
+      "observationTimestamps": [
+        "202509240110"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0120"
+    },
+    {
+      "file": "20250924-0300-latest_10min_wind.csv",
+      "sha256": "72ec728498551897fc348c19619ec847aa6ba1e7da0064efde5f2fe1a33b9c02",
+      "bytes": 1331,
+      "archiveVersionTime": "20250924-0300",
+      "observationTimestamps": [
+        "202509240250"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0300"
+    },
+    {
+      "file": "20250924-0420-latest_10min_wind.csv",
+      "sha256": "9cdab5336b0c211490fc18b5a577f2a88ecdd23bbfa40e0178d0c65e6ff665ea",
+      "bytes": 1340,
+      "archiveVersionTime": "20250924-0420",
+      "observationTimestamps": [
+        "202509240410"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0420"
+    },
+    {
+      "file": "20250924-0500-latest_10min_wind.csv",
+      "sha256": "b526e8b919609d5684062907c5d23ac75ba514b70acadd71b05888db221b2775",
+      "bytes": 1336,
+      "archiveVersionTime": "20250924-0500",
+      "observationTimestamps": [
+        "202509240450"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0500"
+    },
+    {
+      "file": "20250924-0559-latest_10min_wind.csv",
+      "sha256": "629106c479b41752c32db2310c9cf1ab4cfabb5a7e481f58b6c9247914fb4a06",
+      "bytes": 1323,
+      "archiveVersionTime": "20250924-0559",
+      "observationTimestamps": [
+        "202509240550"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0559"
+    },
+    {
+      "file": "20250924-0719-latest_10min_wind.csv",
+      "sha256": "1e582b87046526c6331e14686ebb3013b99c30832f1aee4eb253f3626730b316",
+      "bytes": 1308,
+      "archiveVersionTime": "20250924-0719",
+      "observationTimestamps": [
+        "202509240710"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0719"
+    },
+    {
+      "file": "20250924-0840-latest_10min_wind.csv",
+      "sha256": "9a2c96e909012ece245d5c1ebf3e8f60433f7241f8bef99a6d534cff9f2b6c03",
+      "bytes": 1274,
+      "archiveVersionTime": "20250924-0840",
+      "observationTimestamps": [
+        "202509240830"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0840"
+    },
+    {
+      "file": "20250924-0619-latest_10min_wind.csv",
+      "sha256": "8d8c5227a6028f66287fef233fcf1fa44b402c3445deb6df787a3bfa48fd0dab",
+      "bytes": 1338,
+      "archiveVersionTime": "20250924-0619",
+      "observationTimestamps": [
+        "202509240610"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0619"
+    },
+    {
+      "file": "20250924-0900-latest_10min_wind.csv",
+      "sha256": "f17a8a16e95ffca873577f194534e95b750659155f9e5564083880710a75cf19",
+      "bytes": 1261,
+      "archiveVersionTime": "20250924-0900",
+      "observationTimestamps": [
+        "202509240850"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0900"
+    },
+    {
+      "file": "20250924-0700-latest_10min_wind.csv",
+      "sha256": "1effbfb0cd029fb0911b01073b646ed5c3e16bee41772b23d06af99db0191cc9",
+      "bytes": 1308,
+      "archiveVersionTime": "20250924-0700",
+      "observationTimestamps": [
+        "202509240650"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0700"
+    },
+    {
+      "file": "20250924-0739-latest_10min_wind.csv",
+      "sha256": "be0c76f4357d654fa51086d429959118ce0101b86791e23c675ee19f3c4abac2",
+      "bytes": 1301,
+      "archiveVersionTime": "20250924-0739",
+      "observationTimestamps": [
+        "202509240730"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0739"
+    },
+    {
+      "file": "20250924-1000-latest_10min_wind.csv",
+      "sha256": "2a5590957ee4bdca059d12aec9627e65540298e3e1087038d99874e1f49b333b",
+      "bytes": 1252,
+      "archiveVersionTime": "20250924-1000",
+      "observationTimestamps": [
+        "202509240950"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1000"
+    },
+    {
+      "file": "20250924-1109-latest_10min_wind.csv",
+      "sha256": "95a44a81336b0f90f523a10141ad4c5403f123aebcd5645c8b65c7b81220aa6a",
+      "bytes": 1251,
+      "archiveVersionTime": "20250924-1109",
+      "observationTimestamps": [
+        "202509241100"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1109"
+    },
+    {
+      "file": "20250924-0800-latest_10min_wind.csv",
+      "sha256": "44ef4fcb54295cf35c1abe9d0584547332151a6fb9b5e62663283ab38e30dc20",
+      "bytes": 1295,
+      "archiveVersionTime": "20250924-0800",
+      "observationTimestamps": [
+        "202509240750"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-0800"
+    },
+    {
+      "file": "20250924-1120-latest_10min_wind.csv",
+      "sha256": "94b66873fcceda9c47c87cea0f7a3ac9490c67f3a4fd3f95e35f304305733b16",
+      "bytes": 1256,
+      "archiveVersionTime": "20250924-1120",
+      "observationTimestamps": [
+        "202509241110"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1120"
+    },
+    {
+      "file": "20250924-1320-latest_10min_wind.csv",
+      "sha256": "2086f06adad3835c59d266aa4d38015f0b5de2246562497c158e8adbb8b19216",
+      "bytes": 1285,
+      "archiveVersionTime": "20250924-1320",
+      "observationTimestamps": [
+        "202509241310"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1320"
+    },
+    {
+      "file": "20250924-1200-latest_10min_wind.csv",
+      "sha256": "1c918cd002ff90faaafc384dd81d679cd6305781402ed386eb82ae3073a82d24",
+      "bytes": 1265,
+      "archiveVersionTime": "20250924-1200",
+      "observationTimestamps": [
+        "202509241150"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1200"
+    },
+    {
+      "file": "20250924-1149-latest_10min_wind.csv",
+      "sha256": "b8a355ad66f205431f9b5fcec3e12ca7e9ceaa37ee4b9a3c70c435b650a8a880",
+      "bytes": 1259,
+      "archiveVersionTime": "20250924-1149",
+      "observationTimestamps": [
+        "202509241140"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1149"
+    },
+    {
+      "file": "20250924-1420-latest_10min_wind.csv",
+      "sha256": "2233238132faacd7e2402a18cd5e41c1c516836e6d4c92c424dad66f7dfb8482",
+      "bytes": 1294,
+      "archiveVersionTime": "20250924-1420",
+      "observationTimestamps": [
+        "202509241410"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1420"
+    },
+    {
+      "file": "20250924-1210-latest_10min_wind.csv",
+      "sha256": "9c7df2e151a527a639cb7bf57ab6ee08f7f4e0970708cf1f152d83d227c29927",
+      "bytes": 1271,
+      "archiveVersionTime": "20250924-1210",
+      "observationTimestamps": [
+        "202509241200"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1210"
+    },
+    {
+      "file": "20250924-1439-latest_10min_wind.csv",
+      "sha256": "db77d9f9104cf9c94425f514184b888a780d7e90b13e91ab6a4dafe92fbf331b",
+      "bytes": 1289,
+      "archiveVersionTime": "20250924-1439",
+      "observationTimestamps": [
+        "202509241430"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1439"
+    },
+    {
+      "file": "20250924-1330-latest_10min_wind.csv",
+      "sha256": "ff33cf35da66d8e0d72162be3d7b9e50f05baa0c23726c4d2df5b28b19264672",
+      "bytes": 1281,
+      "archiveVersionTime": "20250924-1330",
+      "observationTimestamps": [
+        "202509241320"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1330"
+    },
+    {
+      "file": "20250924-1450-latest_10min_wind.csv",
+      "sha256": "b415cf0ad5273119b22f94925dd2353030fe63333ee56db85e71aa3dc2664580",
+      "bytes": 1289,
+      "archiveVersionTime": "20250924-1450",
+      "observationTimestamps": [
+        "202509241440"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1450"
+    },
+    {
+      "file": "20250924-1539-latest_10min_wind.csv",
+      "sha256": "39b7fbfa3f16fcef8ab05a9c989fa36a453afeb7b387ccba028a3546d6c13da5",
+      "bytes": 1298,
+      "archiveVersionTime": "20250924-1539",
+      "observationTimestamps": [
+        "202509241530"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1539"
+    },
+    {
+      "file": "20250924-1530-latest_10min_wind.csv",
+      "sha256": "c100d9adaf2e927306b9e8e232316a827e56632e198c347612a885339575788d",
+      "bytes": 1298,
+      "archiveVersionTime": "20250924-1530",
+      "observationTimestamps": [
+        "202509241520"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1530"
+    },
+    {
+      "file": "20250924-1730-latest_10min_wind.csv",
+      "sha256": "0f36ed0d273d05bf8b1758b7c0e4dd2e4de996223f90a1c3aa69577611af5035",
+      "bytes": 1308,
+      "archiveVersionTime": "20250924-1730",
+      "observationTimestamps": [
+        "202509241720"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1730"
+    },
+    {
+      "file": "20250924-1620-latest_10min_wind.csv",
+      "sha256": "aadaf14112740dee7093734fd67fc4642103a514c0e2e4bb0a70227310b3f558",
+      "bytes": 1314,
+      "archiveVersionTime": "20250924-1620",
+      "observationTimestamps": [
+        "202509241610"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1620"
+    },
+    {
+      "file": "20250924-1559-latest_10min_wind.csv",
+      "sha256": "67b96124a14ee97661fe641ac6bc30a84edd3b35c607e1739d3d4f75736ff13c",
+      "bytes": 1292,
+      "archiveVersionTime": "20250924-1559",
+      "observationTimestamps": [
+        "202509241550"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1559"
+    },
+    {
+      "file": "20250924-1811-latest_10min_wind.csv",
+      "sha256": "2c6728e1d22e53c0afa299d519c5bd39c66e5acfc67bf169d3424f0db9c9f0f2",
+      "bytes": 1299,
+      "archiveVersionTime": "20250924-1811",
+      "observationTimestamps": [
+        "202509241800"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1811"
+    },
+    {
+      "file": "20250924-1829-latest_10min_wind.csv",
+      "sha256": "a0dfb9be86eb522fefc811f57ea171d3fda8bd730d04d950d3629cccbaf81522",
+      "bytes": 1286,
+      "archiveVersionTime": "20250924-1829",
+      "observationTimestamps": [
+        "202509241820"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1829"
+    },
+    {
+      "file": "20250924-1919-latest_10min_wind.csv",
+      "sha256": "6293701c52d4ec20d820e8f78f63feef9fd0db1ead4a2087cebd0aec034896d0",
+      "bytes": 1291,
+      "archiveVersionTime": "20250924-1919",
+      "observationTimestamps": [
+        "202509241910"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1919"
+    },
+    {
+      "file": "20250924-1929-latest_10min_wind.csv",
+      "sha256": "32aef4a51d6f3cb7773757fe6c22e6a63fbbd9325f0ec6f3660a6d8b495ac32e",
+      "bytes": 1301,
+      "archiveVersionTime": "20250924-1929",
+      "observationTimestamps": [
+        "202509241920"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-1929"
+    },
+    {
+      "file": "20250924-2011-latest_10min_wind.csv",
+      "sha256": "9afc0ca85c9ffb6dc0b8efca4ed6086106bf76fdd4f53c0d40dabb608039bfdc",
+      "bytes": 1302,
+      "archiveVersionTime": "20250924-2011",
+      "observationTimestamps": [
+        "202509242000"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-2011"
+    },
+    {
+      "file": "20250924-2020-latest_10min_wind.csv",
+      "sha256": "a5a521368ad8d63769c7a8642f511e5a527d106eaa17e5ce72d88ab781e63ed3",
+      "bytes": 1292,
+      "archiveVersionTime": "20250924-2020",
+      "observationTimestamps": [
+        "202509242010"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-2020"
+    },
+    {
+      "file": "20250924-2040-latest_10min_wind.csv",
+      "sha256": "7654affa9ea1092cc7ca465636ac548860ed9576d5efc53d2705422a3b96439d",
+      "bytes": 1290,
+      "archiveVersionTime": "20250924-2040",
+      "observationTimestamps": [
+        "202509242030"
+      ],
+      "sourceUrl": "https://app.data.gov.hk/v1/historical-archive/get-file?url=https%3A%2F%2Fdata.weather.gov.hk%2FweatherAPI%2Fhko_data%2Fregional-weather%2Flatest_10min_wind.csv&time=20250924-2040"
+    }
+  ]
+}

@@ -1,0 +1,436 @@
+{
+  "schemaVersion": 1,
+  "snapshot": "2022–2025",
+  "method": "10-minute cadence, complete 8-station network, official warning envelope; >=3 consecutive qualifying samples for Tier 1; >=2 below-threshold samples for Tier 2 lull. Not an audit of official decision correctness.",
+  "events": [
+    {
+      "metadata": {
+        "id": "chaba",
+        "nameEn": "Chaba",
+        "nameZh": "暹芭",
+        "year": 2022,
+        "severity": "T8",
+        "officialSignal8Start": "2022-07-01T19:10+08:00",
+        "officialSignal8End": "2022-07-02T16:20+08:00",
+        "officialSignal10Start": null,
+        "officialSignal10End": null,
+        "notes": [
+          "Single spell"
+        ]
+      },
+      "tier": 3,
+      "onset": null,
+      "confirmation": null,
+      "leadToOnsetMinutes": null,
+      "leadToConfirmationMinutes": null,
+      "sourceArchive": null,
+      "revisionPolicy": "Latest archived file version in filename order per embedded timestamp and station; all source versions preserved.",
+      "quality": {
+        "conflictingReferenceCells": 0,
+        "malformedReferenceRows": 0,
+        "offGridSamplesExcluded": 0,
+        "totalSamples": 275,
+        "windowSamples": 128,
+        "completeNetworkSamples": 128,
+        "gaps": 0,
+        "firstSample": "2022-07-01T18:50+08:00",
+        "lastSample": "2022-07-03T16:30+08:00",
+        "windowFirstSample": "2022-07-01T19:10+08:00",
+        "windowLastSample": "2022-07-02T16:20+08:00",
+        "startsBeforeWarning": true,
+        "endsAfterWarning": true
+      },
+      "sustainedSampleMinutes": 0
+    },
+    {
+      "metadata": {
+        "id": "ma-on",
+        "nameEn": "Ma-on",
+        "nameZh": "馬鞍",
+        "year": 2022,
+        "severity": "T8",
+        "officialSignal8Start": "2022-08-24T19:25+08:00",
+        "officialSignal8End": "2022-08-25T09:20+08:00",
+        "officialSignal10Start": null,
+        "officialSignal10End": null,
+        "notes": [
+          "Directional shift NE→SE"
+        ]
+      },
+      "tier": 3,
+      "onset": null,
+      "confirmation": null,
+      "leadToOnsetMinutes": null,
+      "leadToConfirmationMinutes": null,
+      "sourceArchive": "recovered-data/ma-on.zip",
+      "revisionPolicy": "Latest archived file version in filename order per embedded timestamp and station; all source versions preserved.",
+      "quality": {
+        "conflictingReferenceCells": 0,
+        "malformedReferenceRows": 0,
+        "offGridSamplesExcluded": 0,
+        "totalSamples": 288,
+        "windowSamples": 84,
+        "completeNetworkSamples": 84,
+        "gaps": 0,
+        "firstSample": "2022-08-24T00:00+08:00",
+        "lastSample": "2022-08-25T23:50+08:00",
+        "windowFirstSample": "2022-08-24T19:30+08:00",
+        "windowLastSample": "2022-08-25T09:20+08:00",
+        "startsBeforeWarning": true,
+        "endsAfterWarning": true
+      },
+      "sustainedSampleMinutes": 0
+    },
+    {
+      "metadata": {
+        "id": "nalgae",
+        "nameEn": "Nalgae",
+        "nameZh": "尼格",
+        "year": 2022,
+        "severity": "T8",
+        "officialSignal8Start": "2022-11-02T13:40+08:00",
+        "officialSignal8End": "2022-11-03T05:20+08:00",
+        "officialSignal10Start": null,
+        "officialSignal10End": null,
+        "notes": [
+          "Three directional segments"
+        ]
+      },
+      "tier": 3,
+      "onset": null,
+      "confirmation": null,
+      "leadToOnsetMinutes": null,
+      "leadToConfirmationMinutes": null,
+      "sourceArchive": "recovered-data/nalgae.zip",
+      "revisionPolicy": "Latest archived file version in filename order per embedded timestamp and station; all source versions preserved.",
+      "quality": {
+        "conflictingReferenceCells": 0,
+        "malformedReferenceRows": 0,
+        "offGridSamplesExcluded": 0,
+        "totalSamples": 289,
+        "windowSamples": 95,
+        "completeNetworkSamples": 95,
+        "gaps": 0,
+        "firstSample": "2022-11-01T23:50+08:00",
+        "lastSample": "2022-11-03T23:50+08:00",
+        "windowFirstSample": "2022-11-02T13:40+08:00",
+        "windowLastSample": "2022-11-03T05:20+08:00",
+        "startsBeforeWarning": true,
+        "endsAfterWarning": true
+      },
+      "sustainedSampleMinutes": 0
+    },
+    {
+      "metadata": {
+        "id": "talim",
+        "nameEn": "Talim",
+        "nameZh": "泰利",
+        "year": 2023,
+        "severity": "T8",
+        "officialSignal8Start": "2023-07-17T00:40+08:00",
+        "officialSignal8End": "2023-07-17T16:20+08:00",
+        "officialSignal10Start": null,
+        "officialSignal10End": null,
+        "notes": [
+          "SE quadrant gales"
+        ]
+      },
+      "tier": 3,
+      "onset": null,
+      "confirmation": null,
+      "leadToOnsetMinutes": null,
+      "leadToConfirmationMinutes": null,
+      "sourceArchive": null,
+      "revisionPolicy": "Latest archived file version in filename order per embedded timestamp and station; all source versions preserved.",
+      "quality": {
+        "conflictingReferenceCells": 0,
+        "malformedReferenceRows": 0,
+        "offGridSamplesExcluded": 0,
+        "totalSamples": 103,
+        "windowSamples": 95,
+        "completeNetworkSamples": 95,
+        "gaps": 0,
+        "firstSample": "2023-07-16T23:50+08:00",
+        "lastSample": "2023-07-17T16:50+08:00",
+        "windowFirstSample": "2023-07-17T00:40+08:00",
+        "windowLastSample": "2023-07-17T16:20+08:00",
+        "startsBeforeWarning": true,
+        "endsAfterWarning": true
+      },
+      "sustainedSampleMinutes": 0
+    },
+    {
+      "metadata": {
+        "id": "saola",
+        "nameEn": "Saola",
+        "nameZh": "蘇拉",
+        "year": 2023,
+        "severity": "T10",
+        "officialSignal8Start": "2023-09-01T02:40+08:00",
+        "officialSignal8End": "2023-09-02T16:20+08:00",
+        "officialSignal10Start": "2023-09-01T20:15+08:00",
+        "officialSignal10End": "2023-09-02T03:40+08:00",
+        "notes": [
+          "T10 from 20:15, 1 Sep to 03:40, 2 Sep (7h 25m)"
+        ]
+      },
+      "tier": 2,
+      "onset": null,
+      "confirmation": null,
+      "leadToOnsetMinutes": null,
+      "leadToConfirmationMinutes": null,
+      "sourceArchive": "recovered-data/saola.zip",
+      "revisionPolicy": "Latest archived file version in filename order per embedded timestamp and station; all source versions preserved.",
+      "quality": {
+        "conflictingReferenceCells": 0,
+        "malformedReferenceRows": 1,
+        "offGridSamplesExcluded": 0,
+        "totalSamples": 289,
+        "windowSamples": 227,
+        "completeNetworkSamples": 118,
+        "gaps": 0,
+        "firstSample": "2023-08-31T23:50+08:00",
+        "lastSample": "2023-09-02T23:50+08:00",
+        "windowFirstSample": "2023-09-01T02:40+08:00",
+        "windowLastSample": "2023-09-02T16:20+08:00",
+        "startsBeforeWarning": true,
+        "endsAfterWarning": true
+      },
+      "sustainedSampleMinutes": 0
+    },
+    {
+      "metadata": {
+        "id": "koinu",
+        "nameEn": "Koinu",
+        "nameZh": "小犬",
+        "year": 2023,
+        "severity": "T8",
+        "officialSignal8Start": "2023-10-08T12:40+08:00",
+        "officialSignal8End": "2023-10-09T11:40+08:00",
+        "officialSignal10Start": null,
+        "officialSignal10End": null,
+        "notes": [
+          "Two T8 spells split by T9 19:00-23:50, 8 Oct"
+        ]
+      },
+      "tier": 3,
+      "onset": null,
+      "confirmation": null,
+      "leadToOnsetMinutes": null,
+      "leadToConfirmationMinutes": null,
+      "sourceArchive": "recovered-data/koinu.zip",
+      "revisionPolicy": "Latest archived file version in filename order per embedded timestamp and station; all source versions preserved.",
+      "quality": {
+        "conflictingReferenceCells": 0,
+        "malformedReferenceRows": 0,
+        "offGridSamplesExcluded": 0,
+        "totalSamples": 289,
+        "windowSamples": 139,
+        "completeNetworkSamples": 130,
+        "gaps": 0,
+        "firstSample": "2023-10-07T23:50+08:00",
+        "lastSample": "2023-10-09T23:50+08:00",
+        "windowFirstSample": "2023-10-08T12:40+08:00",
+        "windowLastSample": "2023-10-09T11:40+08:00",
+        "startsBeforeWarning": true,
+        "endsAfterWarning": true
+      },
+      "sustainedSampleMinutes": 0
+    },
+    {
+      "metadata": {
+        "id": "yagi",
+        "nameEn": "Yagi",
+        "nameZh": "摩羯",
+        "year": 2024,
+        "severity": "T8",
+        "officialSignal8Start": "2024-09-05T18:20+08:00",
+        "officialSignal8End": "2024-09-06T12:40+08:00",
+        "officialSignal10Start": null,
+        "officialSignal10End": null,
+        "notes": [
+          "Super Typhoon"
+        ]
+      },
+      "tier": 3,
+      "onset": null,
+      "confirmation": null,
+      "leadToOnsetMinutes": null,
+      "leadToConfirmationMinutes": null,
+      "sourceArchive": null,
+      "revisionPolicy": "Latest archived file version in filename order per embedded timestamp and station; all source versions preserved.",
+      "quality": {
+        "conflictingReferenceCells": 0,
+        "malformedReferenceRows": 0,
+        "offGridSamplesExcluded": 0,
+        "totalSamples": 148,
+        "windowSamples": 111,
+        "completeNetworkSamples": 111,
+        "gaps": 0,
+        "firstSample": "2024-09-05T15:20+08:00",
+        "lastSample": "2024-09-06T15:50+08:00",
+        "windowFirstSample": "2024-09-05T18:20+08:00",
+        "windowLastSample": "2024-09-06T12:40+08:00",
+        "startsBeforeWarning": true,
+        "endsAfterWarning": true
+      },
+      "sustainedSampleMinutes": 0
+    },
+    {
+      "metadata": {
+        "id": "toraji",
+        "nameEn": "Toraji",
+        "nameZh": "潭美",
+        "year": 2024,
+        "severity": "T8",
+        "officialSignal8Start": "2024-11-13T23:10+08:00",
+        "officialSignal8End": "2024-11-14T10:20+08:00",
+        "officialSignal10Start": null,
+        "officialSignal10End": null,
+        "notes": [
+          "Latest calendar date"
+        ]
+      },
+      "tier": 3,
+      "onset": null,
+      "confirmation": null,
+      "leadToOnsetMinutes": null,
+      "leadToConfirmationMinutes": null,
+      "sourceArchive": null,
+      "revisionPolicy": "Latest archived file version in filename order per embedded timestamp and station; all source versions preserved.",
+      "quality": {
+        "conflictingReferenceCells": 0,
+        "malformedReferenceRows": 0,
+        "offGridSamplesExcluded": 0,
+        "totalSamples": 105,
+        "windowSamples": 68,
+        "completeNetworkSamples": 68,
+        "gaps": 0,
+        "firstSample": "2024-11-13T20:00+08:00",
+        "lastSample": "2024-11-14T13:20+08:00",
+        "windowFirstSample": "2024-11-13T23:10+08:00",
+        "windowLastSample": "2024-11-14T10:20+08:00",
+        "startsBeforeWarning": true,
+        "endsAfterWarning": true
+      },
+      "sustainedSampleMinutes": 0
+    },
+    {
+      "metadata": {
+        "id": "wipha",
+        "nameEn": "Wipha",
+        "nameZh": "韋帕",
+        "year": 2025,
+        "severity": "T10",
+        "officialSignal8Start": "2025-07-20T00:20+08:00",
+        "officialSignal8End": "2025-07-20T19:40+08:00",
+        "officialSignal10Start": "2025-07-20T09:20+08:00",
+        "officialSignal10End": "2025-07-20T16:10+08:00",
+        "notes": [
+          "09:20-16:10 (6h 50m)"
+        ]
+      },
+      "tier": 3,
+      "onset": null,
+      "confirmation": null,
+      "leadToOnsetMinutes": null,
+      "leadToConfirmationMinutes": null,
+      "sourceArchive": null,
+      "revisionPolicy": "Latest archived file version in filename order per embedded timestamp and station; all source versions preserved.",
+      "quality": {
+        "conflictingReferenceCells": 0,
+        "malformedReferenceRows": 0,
+        "offGridSamplesExcluded": 0,
+        "totalSamples": 155,
+        "windowSamples": 117,
+        "completeNetworkSamples": 117,
+        "gaps": 0,
+        "firstSample": "2025-07-19T22:20+08:00",
+        "lastSample": "2025-07-21T00:00+08:00",
+        "windowFirstSample": "2025-07-20T00:20+08:00",
+        "windowLastSample": "2025-07-20T19:40+08:00",
+        "startsBeforeWarning": true,
+        "endsAfterWarning": true
+      },
+      "sustainedSampleMinutes": 0
+    },
+    {
+      "metadata": {
+        "id": "tapah",
+        "nameEn": "Tapah",
+        "nameZh": "塔巴",
+        "year": 2025,
+        "severity": "T8",
+        "officialSignal8Start": "2025-09-07T21:20+08:00",
+        "officialSignal8End": "2025-09-08T13:10+08:00",
+        "officialSignal10Start": null,
+        "officialSignal10End": null,
+        "notes": [
+          "SE quadrant gales"
+        ]
+      },
+      "tier": 3,
+      "onset": null,
+      "confirmation": null,
+      "leadToOnsetMinutes": null,
+      "leadToConfirmationMinutes": null,
+      "sourceArchive": null,
+      "revisionPolicy": "Latest archived file version in filename order per embedded timestamp and station; all source versions preserved.",
+      "quality": {
+        "conflictingReferenceCells": 0,
+        "malformedReferenceRows": 0,
+        "offGridSamplesExcluded": 0,
+        "totalSamples": 102,
+        "windowSamples": 96,
+        "completeNetworkSamples": 95,
+        "gaps": 0,
+        "firstSample": "2025-09-07T20:50+08:00",
+        "lastSample": "2025-09-08T13:40+08:00",
+        "windowFirstSample": "2025-09-07T21:20+08:00",
+        "windowLastSample": "2025-09-08T13:10+08:00",
+        "startsBeforeWarning": true,
+        "endsAfterWarning": true
+      },
+      "sustainedSampleMinutes": 0
+    },
+    {
+      "metadata": {
+        "id": "ragasa",
+        "nameEn": "Ragasa",
+        "nameZh": "樺加沙",
+        "year": 2025,
+        "severity": "T10",
+        "officialSignal8Start": "2025-09-23T14:20+08:00",
+        "officialSignal8End": "2025-09-24T20:20+08:00",
+        "officialSignal10Start": "2025-09-24T02:40+08:00",
+        "officialSignal10End": "2025-09-24T13:20+08:00",
+        "notes": [
+          "02:40-13:20 (10h 40m)"
+        ]
+      },
+      "tier": 1,
+      "onset": "2025-09-24T02:20+08:00",
+      "confirmation": "2025-09-24T02:40+08:00",
+      "leadToOnsetMinutes": 720,
+      "leadToConfirmationMinutes": 740,
+      "sourceArchive": "recovered-data/ragasa.zip",
+      "revisionPolicy": "Latest archived file version in filename order per embedded timestamp and station; all source versions preserved.",
+      "quality": {
+        "conflictingReferenceCells": 394,
+        "malformedReferenceRows": 0,
+        "offGridSamplesExcluded": 0,
+        "totalSamples": 289,
+        "windowSamples": 181,
+        "completeNetworkSamples": 177,
+        "gaps": 0,
+        "firstSample": "2025-09-22T23:50+08:00",
+        "lastSample": "2025-09-24T23:50+08:00",
+        "windowFirstSample": "2025-09-23T14:20+08:00",
+        "windowLastSample": "2025-09-24T20:20+08:00",
+        "startsBeforeWarning": true,
+        "endsAfterWarning": true
+      },
+      "sustainedSampleMinutes": 110
+    }
+  ]
+}
