@@ -2,7 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>HK Signal 8 – Data Prototype</title>
+    <title>HKO Signal 8 Transparency Portal</title>
+    <meta name="description" content="Explore how Hong Kong Signal 8 warnings compare with observed winds across 11 typhoons from 2022–2025. An independent student data project." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="HKO Signal 8 Transparency Portal" />
+    <meta property="og:description" content="Signal 8 warnings, observed winds, and the time between them. Explore 11 typhoons from 2022–2025." />
+    <meta property="og:image" content="https://hko-signal8.pages.dev/assets/social-preview.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="preconnect"
@@ -40,7 +49,7 @@
         gap: 1.5rem;
       }
       .grid.two {
-        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 360px), 1fr));
       }
       .card {
         background: #fff;
@@ -48,9 +57,17 @@
         padding: 1.25rem;
         box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
       }
+      .card { min-width: 0; }
+      select { width: 100%; max-width: 100%; }
+      @media (max-width: 600px) {
+        body { padding: 1rem; }
+        .card { padding: 1rem; }
+        h1 { font-size: 1.5rem; }
+      }
+      .chart { position: relative; height: 320px; min-width: 0; }
       canvas {
         width: 100% !important;
-        height: 320px !important;
+        height: 100% !important;
       }
       label {
         font-weight: 600;
@@ -77,24 +94,25 @@
   <body>
     <main class="grid">
       <header>
-        <h1>Signal 8 Verification Prototype</h1>
+        <h1>HKO Signal 8 Transparency Portal</h1>
         <p>
-          Pulls live numbers from <code>data/index.json</code> and per-event JSON
-          to produce key presentation charts.
+          Explore how Hong Kong's Signal 8 warnings compare with observed winds,
+          making the timing of warning decisions easier to understand.
         </p>
+        <p class="caption">Historical snapshot: 11 typhoons, 2022–2025. This student project applies its own observational checks; an unverified event does not establish that an official warning was unnecessary. Data does not update automatically.</p>
       </header>
 
       <section class="grid two">
         <article class="card">
-          <h2>T8 Standard Verification Share</h2>
-          <p>Share of events where observed winds met the Signal 8 standard (≥4 reference stations sustaining ≥63 km/h).</p>
-          <canvas id="tierPie"></canvas>
+          <h2>Observed Wind Verification Share</h2>
+          <p>Share of events meeting this project's observational checks across eight reference stations.</p>
+          <div class="chart"><canvas id="tierPie"></canvas></div>
         </article>
         <article class="card">
           <h2>Signal 8 vs Sustained Gale Timing</h2>
           <p>Minutes between HKO’s Signal 8 issuance and when sustained gale-force winds were actually observed.</p>
           <p class="caption">Bars only appear when sustained winds were verified. Positive = issued before gales; negative = issued after.</p>
-          <canvas id="leadLag"></canvas>
+          <div class="chart"><canvas id="leadLag"></canvas></div>
         </article>
       </section>
 
@@ -103,13 +121,13 @@
           <h2>Injuries vs Signal Timing</h2>
           <p>Comparing recorded injuries against early warning minutes (HKO issuance vs sustained winds).</p>
           <p class="caption">Only events with verified sustained winds appear.</p>
-          <canvas id="casualtyScatter"></canvas>
+          <div class="chart"><canvas id="casualtyScatter"></canvas></div>
         </article>
         <article class="card">
           <h2>Vessel Impact vs Signal Timing</h2>
           <p>Total damaged/destroyed/shipwrecked vessels plotted against early warning minutes.</p>
           <p class="caption">Only events with verified sustained winds appear.</p>
-          <canvas id="propertyScatter"></canvas>
+          <div class="chart"><canvas id="propertyScatter"></canvas></div>
         </article>
       </section>
 
@@ -125,19 +143,19 @@
           <label for="eventSelect">Select event</label>
           <select id="eventSelect"></select>
         </div>
-        <canvas id="timelineChart"></canvas>
+        <div class="chart"><canvas id="timelineChart"></canvas></div>
       </section>
     </main>
 
     <footer>
-      Serve the project root (e.g. <code>npx serve</code> or
-      <code>python -m http.server</code>) and open
-      <code>/prototypes/charts.html</code>.
+      <p>GCAP3226 course project, December 2025. Built by Zian Zheng</p>
+      <a href="https://github.com/AndyZHENG0715/HKOSignal8TransparencyPortal">Source code and methodology on GitHub</a>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
     <script type="module">
+      Chart.defaults.maintainAspectRatio = false;
       const COLOR_BY_TIER = {
         1: "#15803d",
         2: "#b45309",
@@ -171,15 +189,15 @@
 
       function describeVerification(tier) {
         return tier <= 2
-          ? "T8 standard met (sustained winds verified)"
-          : "T8 standard not verified";
+          ? "Project wind check verified"
+          : "Project wind check unverified";
       }
 
       function buildTierPie(data) {
         const verified = data.filter((evt) => evt.tier <= 2).length;
         const unverified = data.filter((evt) => evt.tier === 3).length;
         const dataset = {
-          labels: ["T8 standard met (sustained winds observed)", "T8 standard not verified"],
+          labels: ["Project wind check verified", "Project wind check unverified"],
           datasets: [
             {
               data: [verified, unverified],

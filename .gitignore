@@ -31,3 +31,7 @@ submission/
 # Environment
 .env
 .env.local
+
+# Static deployment output and local evidence
+dist/
+.tmp/
