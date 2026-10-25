@@ -32,7 +32,7 @@ sh scripts/build_site.sh
 - `recovered-data/`: exact official DATA.GOV.HK historical CSV versions packaged as per-event ZIP inputs, with retrieval URLs/times and SHA-256 manifests. Recovered Ma-on, Nalgae, Koinu, Saola and Ragasa replace those events' incomplete or misdated source folders for the new pipeline. The original folders are retained for provenance.
 - `website/data/`: generated summary, event timelines, quality diagnostics, source hashes, recovery manifests and metadata copy.
 - `website/downloads/`: generated timeline CSV and byte-preserving source CSV ZIP for every event.
-- `website/`: seven public pages and bilingual shared UI; base visual styles adapted from `hko-signal8-validation` at `5c6dae859542b56f086fc55399ae1146d694a2e5`.
+- `website/`: eight public pages and bilingual shared UI (including `archive.html`, the original December 2025 poster and group report with student IDs removed); base visual styles adapted from `hko-signal8-validation` at `5c6dae859542b56f086fc55399ae1146d694a2e5`.
 
 Observation timestamps come from CSV `Date time`, never the archive download/version filename. Only ten-minute embedded observation grid samples are used. Latest archived filename revision wins for each timestamp/station, including nulls. Conflicting revisions are counted and all original versions remain in downloadable ZIPs. Missing/malformed observations are not fabricated. Rebuilding from committed inputs needs no network access.
 
