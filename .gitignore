@@ -35,3 +35,4 @@ submission/
 # Static deployment output and local evidence
 dist/
 .tmp/
+!website/archive/*.pdf
